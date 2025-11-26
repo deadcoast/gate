@@ -16,6 +16,8 @@
 
 ---
 
+*Doc Version: 0.0.3-unified (consolidated from 0.0.1–0.0.3; interpreter spec spans Gate Pattern v1.0 and v2.0 behaviors).*
+
 ## GATE PATTERN INTERPRETER SPECIFICATION v1.0/v2.0
 
 This specification defines the *mechanics* of how a Gate Pattern program is processed.
@@ -409,7 +411,7 @@ INTERPRETATION PIPELINE:
 
 ## SUMMARY
 
-A complete, formal, machine-ready interpreter architecture for `gate` 0.0.1
+A complete, formal, machine-ready interpreter architecture for `gate` docs 0.0.3-unified (backward-compatible with the original 0.0.1 lineage)
 
 * Tokenizer
 * Parser

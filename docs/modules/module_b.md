@@ -16,15 +16,17 @@
 
 ---
 
+*Doc Version: 0.0.3-unified (consolidated from 0.0.1–0.0.3; Module B extends Gate Pattern metaphysics through v2.0 semantics).*
+
 Everything below is built for:
 
-* pattern-recognition
-* symbolic role-binding
-* hierarchical meaning
-* ritual-state computational logic
-* multi-gate metaphysics
-* residual narrative encoding
-* machine determinism
+- pattern-recognition
+- symbolic role-binding
+- hierarchical meaning
+- ritual-state computational logic
+- multi-gate metaphysics
+- residual narrative encoding
+- machine determinism
 
 This is the architectural expansion pack.
 
@@ -372,14 +374,14 @@ These will be given full definitions in Module C.
 
 Gate Pattern v2.0 provides:
 
-* A full metaphysics layer
-* Expanded Gate cosmology
-* Symbolic Realms & Forces
-* A physics engine for Sledge operations
-* New operators & deeper expressive mechanics
-* Causality, memory, resonance layers
-* Multi-agent binding semantics
-* Higher-order irreversibility rules
+- A full metaphysics layer
+- Expanded Gate cosmology
+- Symbolic Realms & Forces
+- A physics engine for Sledge operations
+- New operators & deeper expressive mechanics
+- Causality, memory, resonance layers
+- Multi-agent binding semantics
+- Higher-order irreversibility rules
 
 This is now a living symbolic system.
 A true evolvable DSL + metaphysical abstraction system.

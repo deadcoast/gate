@@ -17,6 +17,8 @@
 
 ---
 
+*Doc Version: 0.0.3-unified (consolidated from 0.0.1–0.0.3; Module F captures Gate Pattern v3.0 evolution layer).*
+
 VERSION:
     @meta::version_major="3"
     @meta::evolution_layer="ACTIVE"

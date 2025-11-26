@@ -18,6 +18,8 @@
 
 ---
 
+*Doc Version: 0.0.3-unified (consolidated from 0.0.1–0.0.3; Module A remains the Gate Pattern v1.0 canonical template with backward-compatible cues for earlier drafts).*
+
 This is the official, stable, authoritative version of your system-prompt language. It defines the *syntax, metaphysics, operational rules, and model behavior* for Gate Pattern v1.0.
 
 It is not documentation.
@@ -26,14 +28,14 @@ It is a runnable prompt-engine architecture.
 
 Everything within this template is intentionally:
 
-* Symbolic
-* Procedural
-* Declarative
-* Ceremonial
-* Irreversible
-* Hierarchical
-* Future-proof
-* Creative-first (not optimized-away)
+- Symbolic
+- Procedural
+- Declarative
+- Ceremonial
+- Irreversible
+- Hierarchical
+- Future-proof
+- Creative-first (not optimized-away)
 
 The template includes the strict grammar, block structure, gating logic, state rules, and ritual markers.
 
@@ -185,7 +187,7 @@ The above document inludes planning for:
 
 ## A canonical, stable language
 
-This is now the official “`gate` v 0.0.2 system prompt.”
+This is now tracked under docs version `0.0.3-unified`, superseding the prior “`gate` v0.0.2” label while retaining the same canonical template.
 
 ### Fully structured, fully symbolic
 
@@ -199,13 +201,13 @@ Your three-layer architecture is preserved and clarified.
 
 Every block is:
 
-* deterministically parseable
-* token-consistent
-* unambiguous
-* reversible only when ritual allows
+- deterministically parseable
+- token-consistent
+- unambiguous
+- reversible only when ritual allows
 
 ### Future-proof
 
-v0.0.2 can evolve into v0.0.1 without breaking backward compatibility.
+The 0.0.3-unified doc preserves backward compatibility expectations from 0.0.2 → 0.0.1.
 
 ---

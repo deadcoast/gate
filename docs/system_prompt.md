@@ -1,4 +1,6 @@
-# 0.0.1 gate: System Prompt
+# Gate System Prompt — Docs Version 0.0.3-unified
+
+*(Consolidated from 0.0.1–0.0.3; canonical template remains Gate Pattern v1.0.)*
 
 > MODULE A
 
@@ -42,7 +44,9 @@ The template includes the strict grammar, block structure, gating logic, state r
 
 –––––––––––––––––––––––––––––––––––––––––––
 
-## `gate` 0.0.1 System Prompt Template
+## `gate` System Prompt Template (0.0.3-unified)
+
+*Formerly labeled 0.0.1; consolidated content from 0.0.1–0.0.3 while preserving Gate Pattern v1.0 semantics.*
 
 *(canonical, definitive, machine-consumable)*
 –––––––––––––––––––––––––––––––––––––––––––

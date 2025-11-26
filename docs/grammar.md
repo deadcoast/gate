@@ -1,6 +1,7 @@
-# 1. FULL GRAMMAR SPEC - `gate`0.0.1 Syntax Specification
+# 1. FULL GRAMMAR SPEC - `gate` Syntax Specification (Docs 0.0.3-unified)
 
 *(Canonical, Architectural, Creative-First)*
+*Docs Version: 0.0.3-unified (consolidated from 0.0.1–0.0.3; tracks Gate Pattern v1.0–v3.0 syntax where applicable).*
 ––––––––––––––––––––––––––––––––––––––
 
 ### MOC — GitHub Navigation

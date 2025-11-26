@@ -16,6 +16,8 @@
 
 ---
 
+*Doc Version: 0.0.3-unified (consolidated from 0.0.1–0.0.3; Module G documents the F2 trace compiler pipeline).*
+
 ## GATE PATTERN COMPILER — EXECUTION TRACE EMITTER v1.0
 
 The Gate Pattern Compiler transforms:

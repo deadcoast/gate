@@ -18,6 +18,8 @@
 
 ---
 
+*Doc Version: 0.0.3-unified (consolidated from 0.0.1–0.0.3; Module E codifies SLEDGE law across Gate Pattern versions).*
+
 This is the charter, the constitution, the doctrine, and the physics manual for the SLEDGE — the rarest, most powerful construct in the Gate Pattern universe.
 
 It defines:

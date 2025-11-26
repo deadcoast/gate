@@ -1,4 +1,6 @@
-# FULL SPECIFICIATION 0.0.1
+# FULL SPECIFICATION — Docs Version 0.0.3-unified
+
+*(Consolidated from 0.0.1–0.0.3; covers Gate Pattern v1.0–v3.0 features.)*
 
 ## **THE COMPLETE SELF-CONTAINED UNIVERSE + DEV ENVIRONMENT + LANGUAGE ECOSYSTEM**
 
@@ -18,7 +20,7 @@
 
 ---
 
-`gate` 0.0.1 is:
+`gate` (docs 0.0.3-unified) is:
 
 ✔ A full language
 ✔ A metaphysical framework

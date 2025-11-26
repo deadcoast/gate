@@ -16,6 +16,8 @@
 
 ---
 
+*Doc Version: 0.0.3-unified (consolidated from 0.0.1–0.0.3; Module C anchors the v1.0 standard library).*
+
 ## GATE PATTERN — STANDARD LIBRARY v1.0
 
 > This is the built-in function set for the Gate Pattern language.

@@ -1,6 +1,7 @@
 # Modules MOC
 
 *(GitHub-ready navigation for the Gate Pattern module stack.)*
+*Doc Version: **0.0.3-unified** (consolidated from 0.0.1–0.0.3; spans Gate Pattern v1.0–v3.0 content).*
 
 ```
 #======================================================================

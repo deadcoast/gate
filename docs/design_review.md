@@ -1,4 +1,6 @@
-# DESIGN DOCUMENT 0.0.1 - GPT5.1
+# DESIGN DOCUMENT — Docs Version 0.0.3-unified (GPT5.1)
+
+*(Consolidated from 0.0.1–0.0.3; analysis remains applicable across Gate Pattern v1.0–v3.0.)*
 
 ### MOC — GitHub Navigation
 
