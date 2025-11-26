@@ -18,6 +18,12 @@
 
 *Doc Version: 0.0.3-unified (consolidated from 0.0.1–0.0.3; Module C anchors the v1.0 standard library).*
 
+### Scope & Alignment
+
+- Standard library for Gate Pattern v1.0; pairs with Module A (prompt) and Module B (metaphysics).
+- Operator semantics follow the canon in `../grammar.md` and `../full_spec.md`; keep function definitions consistent.
+- Acts as the base for interpreter/compiler behaviors referenced in Modules D and G.
+
 ## GATE PATTERN — STANDARD LIBRARY v1.0
 
 > This is the built-in function set for the Gate Pattern language.

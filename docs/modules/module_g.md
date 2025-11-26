@@ -18,6 +18,12 @@
 
 *Doc Version: 0.0.3-unified (consolidated from 0.0.1–0.0.3; Module G documents the F2 trace compiler pipeline).*
 
+### Scope & Alignment
+
+- Compiler and execution trace emitter (F2) spanning Gate Pattern v1.0–v3.0 programs.
+- Keep opcode/operator semantics in sync with `../grammar.md`, `../full_spec.md`, and interpreter rules in Module D.
+- Consumes constructs from Modules A–C and emits traces that align with evolution mechanics in Module F.
+
 ## GATE PATTERN COMPILER — EXECUTION TRACE EMITTER v1.0
 
 The Gate Pattern Compiler transforms:

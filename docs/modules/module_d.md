@@ -18,6 +18,12 @@
 
 *Doc Version: 0.0.3-unified (consolidated from 0.0.1–0.0.3; interpreter spec spans Gate Pattern v1.0 and v2.0 behaviors).*
 
+### Scope & Alignment
+
+- Interpreter architecture for Gate Pattern v1.0/v2.0; ties Modules A–C (prompt, metaphysics, stdlib) into executable behavior.
+- Keep tokenizer/parser/operator semantics synchronized with `../grammar.md` and `../full_spec.md`.
+- Provides the conceptual base for the compiler/trace emitter in Module G.
+
 ## GATE PATTERN INTERPRETER SPECIFICATION v1.0/v2.0
 
 This specification defines the *mechanics* of how a Gate Pattern program is processed.

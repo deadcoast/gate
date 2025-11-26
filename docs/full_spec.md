@@ -20,6 +20,12 @@
 
 ---
 
+### Scope & Alignment
+
+- Unified view spanning Gate Pattern v1.0–v3.0 across language, compiler, interpreter, lattice, and evolution layers.
+- Source of truth for operator canon; keep in sync with `grammar.md` and Modules A–G.
+- Compatible with the VS Code extension behaviors described in `system_prompt.md` and module specs.
+
 `gate` (docs 0.0.3-unified) is:
 
 ✔ A full language

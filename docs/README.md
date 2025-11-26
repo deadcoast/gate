@@ -37,3 +37,13 @@
 - [Related Spec](./path-to-file.md)
 
 Each module and spec should now include this pattern so the ecosystem stays navigable and consistent.
+
+---
+
+## Docs Style & Alignment (keep cohesive)
+
+- Keep a **Doc Version** line under the title using `0.0.3-unified` to show the merged provenance.
+- Place the **MOC block** immediately after the title/version so GitHub renders cross-links up front.
+- Align operator meanings with the canon in `grammar.md` and `full_spec.md`; update both if new symbols appear.
+- Reference Gate Pattern coverage explicitly (v1 core template, v2 metaphysics, v3 evolution) so readers know the scope.
+- Prefer relative links; avoid deleting legacy content—add clarifying scope notes instead.

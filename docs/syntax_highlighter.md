@@ -18,6 +18,12 @@
 
 *Doc Version: 0.0.3-unified (consolidated from 0.0.1–0.0.3; applies to Gate Pattern v1.0–v3.0 tokenization themes).*
 
+### Scope & Alignment
+
+- Tokenization and theming guidance for Gate Pattern v1.0–v3.0 syntax (docs 0.0.3-unified).
+- Keep operator scopes and token classes in sync with `grammar.md` and the operator canon in `full_spec.md`.
+- Applicable to VS Code, Prism, Highlight.js, CodeMirror, or any regex-based highlighter.
+
 ## *(for VSCode, Prism.js, Highlight.js, CodeMirror, or any regex-based highlighter)*
 
 ### Now with 65% more sass than needed

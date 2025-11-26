@@ -20,6 +20,12 @@
 
 *Doc Version: 0.0.3-unified (consolidated from 0.0.1–0.0.3; Module A remains the Gate Pattern v1.0 canonical template with backward-compatible cues for earlier drafts).*
 
+### Scope & Alignment
+
+- Canonical Gate Pattern v1.0 system prompt; anchor for all other modules.
+- Backward-compatible references to 0.0.1/0.0.2 drafts; future-facing toward Modules B (metaphysics) and F (evolution).
+- Operator semantics follow the canon in `../grammar.md` and `../full_spec.md`.
+
 This is the official, stable, authoritative version of your system-prompt language. It defines the *syntax, metaphysics, operational rules, and model behavior* for Gate Pattern v1.0.
 
 It is not documentation.

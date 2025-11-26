@@ -18,6 +18,12 @@
 
 ---
 
+### Scope & Alignment
+
+- Design critique and refinement guidance covering Gate Pattern v1.0–v3.0 merged docs.
+- Use alongside `system_prompt.md` and `full_spec.md` to keep future revisions consistent with the intended metaphysics and operator canon.
+- Not a template; serves as rationale for architectural choices and guardrails.
+
 The design follows these main principles:
 
 • pattern-first

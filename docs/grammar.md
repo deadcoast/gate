@@ -34,6 +34,12 @@ This grammar defines that engine.
 
 ---
 
+### Scope & Alignment
+
+- Canonical grammar for Gate Pattern v1.0 with extensions for v2 metaphysics and v3 evolution symbols.
+- Operator meanings are defined in the “Operator Canon (v1–v3)” section; keep aligned with `full_spec.md` and Modules A–G.
+- Use this file as the reference when updating the VS Code grammar or parser implementations.
+
 ## Extended Operator Canon (v1–v3 alignment)
 
 ```

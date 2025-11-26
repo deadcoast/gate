@@ -18,6 +18,12 @@
 
 *Doc Version: 0.0.3-unified (consolidated from 0.0.1–0.0.3; Module B extends Gate Pattern metaphysics through v2.0 semantics).*
 
+### Scope & Alignment
+
+- Metaphysics and operator expansion for Gate Pattern v2.0; complements Module A (prompt) and Module C (standard library).
+- Operator semantics follow the canon in `../grammar.md` and `../full_spec.md`; keep additions synced.
+- Bridges toward Module F (v3 evolution) without discarding v1 behaviors.
+
 Everything below is built for:
 
 - pattern-recognition

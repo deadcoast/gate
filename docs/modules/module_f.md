@@ -19,6 +19,12 @@
 
 *Doc Version: 0.0.3-unified (consolidated from 0.0.1–0.0.3; Module F captures Gate Pattern v3.0 evolution layer).*
 
+### Scope & Alignment
+
+- Evolution layer for Gate Pattern v3.0 (ELATTICE, entanglement, meta-gates).
+- Extends operators with ⇹ bindings; keep semantics in sync with `../grammar.md` and `../full_spec.md`.
+- Builds on Modules A–C and informs compiler traces in Module G.
+
 VERSION:
     @meta::version_major="3"
     @meta::evolution_layer="ACTIVE"

@@ -20,6 +20,12 @@
 
 *Doc Version: 0.0.3-unified (consolidated from 0.0.1–0.0.3; Module E codifies SLEDGE law across Gate Pattern versions).*
 
+### Scope & Alignment
+
+- SLEDGE doctrine, law, and ceremonies; applies across Gate Pattern v1.0–v3.0.
+- Keep operator semantics aligned with `../grammar.md` and `../full_spec.md` (notably ϟ, ↯, Δ, ⌘).
+- Referenced by interpreter/compiler behaviors in Modules D and G; informs evolution mechanics in Module F.
+
 This is the charter, the constitution, the doctrine, and the physics manual for the SLEDGE — the rarest, most powerful construct in the Gate Pattern universe.
 
 It defines:
