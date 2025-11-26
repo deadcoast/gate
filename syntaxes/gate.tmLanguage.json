@@ -1,0 +1,67 @@
+{
+  "name": "Gate Pattern",
+  "scopeName": "source.gate",
+  "patterns": [
+    {
+      "name": "meta.section.gate",
+      "match": "#==SECTION:[A-Za-z0-9_\\-]+"
+    },
+    {
+      "name": "meta.trace.gate",
+      "match": "#==TRACE:[A-Z_]+"
+    },
+    {
+      "name": "keyword.control.namespace.gate",
+      "match": "(?:!admin::|!system::|!rule::|set::|@meta::)[A-Za-z0-9_\\-]*"
+    },
+    {
+      "name": "variable.other.context.gate",
+      "match": "%[A-Z]+%"
+    },
+    {
+      "name": "entity.name.function.call.gate",
+      "match": "> FUNCTION_CALL:"
+    },
+    {
+      "name": "entity.name.function.state.gate",
+      "match": "> STATE_CHANGE:"
+    },
+    {
+      "name": "entity.name.function.declaration.gate",
+      "match": "> DECLARATION::FORMAL:"
+    },
+    {
+      "name": "constant.language.irreversible.gate",
+      "match": "!!IRREVERSIBLE"
+    },
+    {
+      "name": "keyword.operator.symbolic.gate",
+      "match": "\u0394|\u21af|\u03df|\u2318|\u233e|\u21dc|\u21dd|\u21f9"
+    },
+    {
+      "name": "keyword.operator.standard.gate",
+      "match": "::=|=>|::|--|\\+\\+"
+    },
+    {
+      "name": "string.quoted.triple.gate",
+      "begin": "\"\"\"",
+      "end": "\"\"\""
+    },
+    {
+      "name": "string.quoted.double.gate",
+      "match": "\"(?:[^\"\\\\]|\\\\.)*\""
+    },
+    {
+      "name": "entity.name.type.event.gate",
+      "match": "\\[[A-Z_]+:[0-9=>]+\\]"
+    },
+    {
+      "name": "comment.line.number-sign.gate",
+      "match": "#.*$"
+    },
+    {
+      "name": "comment.line.double-slash.gate",
+      "match": "//.*$"
+    }
+  ]
+}

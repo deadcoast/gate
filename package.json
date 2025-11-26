@@ -1,0 +1,82 @@
+{
+  "name": "gate-pattern",
+  "displayName": "Gate Pattern Development Environment",
+  "description": "Full LSP, syntax highlighting, traces, ELATTICE visualization, and ceremonial effects for the `gate` language.",
+  "version": "1.0.0",
+  "publisher": "deadcoast",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "activationEvents": [
+    "onLanguage:gate",
+    "onCommand:gate.compileToTrace",
+    "onCommand:gate.renderELattice",
+    "onCommand:gate.evaluateEvolution",
+    "onCommand:gate.showGateBreakPreview"
+  ],
+  "main": "./out/client.js",
+  "contributes": {
+    "languages": [
+      {
+        "id": "gate",
+        "extensions": [
+          ".gate"
+        ],
+        "aliases": [
+          "Gate Pattern Language",
+          "gate"
+        ],
+        "configuration": "./gate-language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "gate",
+        "scopeName": "source.gate",
+        "path": "./syntaxes/gate.tmLanguage.json"
+      }
+    ],
+    "commands": [
+      {
+        "command": "gate.compileToTrace",
+        "title": "Gate: Compile to Trace"
+      },
+      {
+        "command": "gate.renderELattice",
+        "title": "Gate: Render ELATTICE"
+      },
+      {
+        "command": "gate.evaluateEvolution",
+        "title": "Gate: Evaluate Evolution Potential"
+      },
+      {
+        "command": "gate.showGateBreakPreview",
+        "title": "Gate: Gate Break Preview"
+      }
+    ],
+    "menus": {
+      "editor/title": [
+        {
+          "command": "gate.compileToTrace",
+          "group": "navigation"
+        },
+        {
+          "command": "gate.renderELattice",
+          "group": "navigation"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "compile": "tsc -b",
+    "watch": "tsc -b -w"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vscode-languageclient": "^9.0.0",
+    "vscode-languageserver": "^9.0.0"
+  }
+}
