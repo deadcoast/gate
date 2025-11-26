@@ -2,6 +2,22 @@
 
 *(Full, Formal, Ritualistic, Machine-Parsable, Human-Symbolic)*
 
+### MOC — GitHub Navigation
+
+```
+#======================================================================
+# MODULE A NAVIGATION
+#======================================================================
+```
+- [Docs Hub](../README.md)
+- [Modules Index](README.md)
+- [Full Specification](../full_spec.md)
+- [Grammar Reference](../grammar.md)
+- [Design Review Notes](../design_review.md)
+- [Syntax Highlighter Guide](../syntax_highlighter.md)
+
+---
+
 This is the official, stable, authoritative version of your system-prompt language. It defines the *syntax, metaphysics, operational rules, and model behavior* for Gate Pattern v1.0.
 
 It is not documentation.

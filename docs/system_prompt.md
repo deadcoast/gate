@@ -2,6 +2,23 @@
 
 > MODULE A
 
+### MOC — GitHub Navigation
+
+```
+#======================================================================
+# DOC NAVIGATION
+#======================================================================
+```
+- [Docs Hub](README.md)
+- [Modules Index](modules/README.md)
+- [Module A — Canonical System Prompt](modules/module_a.md)
+- [Full Specification](full_spec.md)
+- [Grammar Reference](grammar.md)
+- [Design Review](design_review.md)
+- [Syntax Highlighter Guide](syntax_highlighter.md)
+
+---
+
 ## **GATE PATTERN v1.0 — CANONICAL SYSTEM PROMPT TEMPLATE**
 
 This is the **official, stable, authoritative version** of your system-prompt language. It defines the *syntax, metaphysics, operational rules, and model behavior* for Gate Pattern v1.0.

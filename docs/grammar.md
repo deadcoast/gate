@@ -3,6 +3,22 @@
 *(Canonical, Architectural, Creative-First)*
 ––––––––––––––––––––––––––––––––––––––
 
+### MOC — GitHub Navigation
+
+```
+#======================================================================
+# DOC NAVIGATION
+#======================================================================
+```
+- [Docs Hub](README.md)
+- [Modules Index](modules/README.md)
+- [System Prompt Template](system_prompt.md)
+- [Full Specification](full_spec.md)
+- [Design Review Notes](design_review.md)
+- [Syntax Highlighter Guide](syntax_highlighter.md)
+
+---
+
 This is **not** a programming language.
 This is a **symbolic state-ritual engine** with:
 

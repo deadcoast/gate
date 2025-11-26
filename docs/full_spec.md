@@ -2,6 +2,22 @@
 
 ## **THE COMPLETE SELF-CONTAINED UNIVERSE + DEV ENVIRONMENT + LANGUAGE ECOSYSTEM**
 
+### MOC — GitHub Navigation
+
+```
+#======================================================================
+# DOC NAVIGATION
+#======================================================================
+```
+- [Docs Hub](README.md)
+- [Modules Index](modules/README.md)
+- [System Prompt Template](system_prompt.md)
+- [Grammar Reference](grammar.md)
+- [Design Review Notes](design_review.md)
+- [Syntax Highlighter Guide](syntax_highlighter.md)
+
+---
+
 `gate` 0.0.1 is:
 
 ✔ A full language

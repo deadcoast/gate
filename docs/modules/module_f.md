@@ -1,6 +1,22 @@
 # GATE PATTERN v3.0 — TOTAL EVOLUTION LAYER
 #===========================================================================
 
+### MOC — GitHub Navigation
+
+```
+#======================================================================
+# MODULE F NAVIGATION
+#======================================================================
+```
+- [Docs Hub](../README.md)
+- [Modules Index](README.md)
+- [Full Specification](../full_spec.md)
+- [Grammar Reference](../grammar.md)
+- [Design Review Notes](../design_review.md)
+- [Syntax Highlighter Guide](../syntax_highlighter.md)
+
+---
+
 VERSION:
     @meta::version_major="3"
     @meta::evolution_layer="ACTIVE"

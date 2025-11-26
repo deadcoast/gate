@@ -1,5 +1,21 @@
 # MODULE C
 
+### MOC — GitHub Navigation
+
+```
+#======================================================================
+# MODULE C NAVIGATION
+#======================================================================
+```
+- [Docs Hub](../README.md)
+- [Modules Index](README.md)
+- [Full Specification](../full_spec.md)
+- [Grammar Reference](../grammar.md)
+- [Design Review Notes](../design_review.md)
+- [Syntax Highlighter Guide](../syntax_highlighter.md)
+
+---
+
 ## GATE PATTERN — STANDARD LIBRARY v1.0
 
 > This is the built-in function set for the Gate Pattern language.

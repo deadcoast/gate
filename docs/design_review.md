@@ -1,5 +1,21 @@
 # DESIGN DOCUMENT 0.0.1 - GPT5.1
 
+### MOC — GitHub Navigation
+
+```
+#======================================================================
+# DOC NAVIGATION
+#======================================================================
+```
+- [Docs Hub](README.md)
+- [Modules Index](modules/README.md)
+- [System Prompt Template](system_prompt.md)
+- [Full Specification](full_spec.md)
+- [Grammar Reference](grammar.md)
+- [Syntax Highlighter Guide](syntax_highlighter.md)
+
+---
+
 The design follows these main principles:
 
 • pattern-first

@@ -1,5 +1,21 @@
 # MODULE F2
 
+### MOC — GitHub Navigation
+
+```
+#======================================================================
+# MODULE G / F2 NAVIGATION
+#======================================================================
+```
+- [Docs Hub](../README.md)
+- [Modules Index](README.md)
+- [Full Specification](../full_spec.md)
+- [Grammar Reference](../grammar.md)
+- [Design Review Notes](../design_review.md)
+- [Syntax Highlighter Guide](../syntax_highlighter.md)
+
+---
+
 ## GATE PATTERN COMPILER — EXECUTION TRACE EMITTER v1.0
 
 The Gate Pattern Compiler transforms:

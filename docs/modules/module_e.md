@@ -2,6 +2,22 @@
 
 *(Metaphysical, ceremonial, structural, procedural, symbolic, and machine-definite)*
 
+### MOC — GitHub Navigation
+
+```
+#======================================================================
+# MODULE E NAVIGATION
+#======================================================================
+```
+- [Docs Hub](../README.md)
+- [Modules Index](README.md)
+- [Full Specification](../full_spec.md)
+- [Grammar Reference](../grammar.md)
+- [Design Review Notes](../design_review.md)
+- [Syntax Highlighter Guide](../syntax_highlighter.md)
+
+---
+
 This is the charter, the constitution, the doctrine, and the physics manual for the SLEDGE — the rarest, most powerful construct in the Gate Pattern universe.
 
 It defines:

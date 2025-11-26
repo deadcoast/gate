@@ -1,5 +1,21 @@
 # THE `gate` SYNTAX HIGHLIGHTER
 
+### MOC — GitHub Navigation
+
+```
+#======================================================================
+# DOC NAVIGATION
+#======================================================================
+```
+- [Docs Hub](README.md)
+- [Modules Index](modules/README.md)
+- [System Prompt Template](system_prompt.md)
+- [Full Specification](full_spec.md)
+- [Grammar Reference](grammar.md)
+- [Design Review Notes](design_review.md)
+
+---
+
 ## *(for VSCode, Prism.js, Highlight.js, CodeMirror, or any regex-based highlighter)*
 
 ### Now with 65% more sass than needed

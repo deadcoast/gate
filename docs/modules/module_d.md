@@ -1,5 +1,21 @@
 # MODULE D
 
+### MOC — GitHub Navigation
+
+```
+#======================================================================
+# MODULE D NAVIGATION
+#======================================================================
+```
+- [Docs Hub](../README.md)
+- [Modules Index](README.md)
+- [Full Specification](../full_spec.md)
+- [Grammar Reference](../grammar.md)
+- [Design Review Notes](../design_review.md)
+- [Syntax Highlighter Guide](../syntax_highlighter.md)
+
+---
+
 ## GATE PATTERN INTERPRETER SPECIFICATION v1.0/v2.0
 
 This specification defines the *mechanics* of how a Gate Pattern program is processed.
