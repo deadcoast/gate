@@ -1,4 +1,4 @@
-# 1. FULL GRAMMAR SPEC - `gate`0.0.2 Syntax Specification
+# 1. FULL GRAMMAR SPEC - `gate`0.0.1 Syntax Specification
 
 *(Canonical, Architectural, Creative-First)*
 ––––––––––––––––––––––––––––––––––––––

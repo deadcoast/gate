@@ -1,4 +1,4 @@
-# DESIGN DOCUMENT 0.0.3 - MILKMAN
+# 0.0.1 gate: System Prompt
 
 > MODULE A
 
@@ -25,7 +25,7 @@ The template includes the strict grammar, block structure, gating logic, state r
 
 –––––––––––––––––––––––––––––––––––––––––––
 
-## `gate` 0.0.3 System Prompt Template
+## `gate` 0.0.1 System Prompt Template
 
 *(canonical, definitive, machine-consumable)*
 –––––––––––––––––––––––––––––––––––––––––––

@@ -1,4 +1,4 @@
-# DESIGN DOCUMENT 0.0.2 - GPT5.1
+# DESIGN DOCUMENT 0.0.1 - GPT5.1
 
 The design follows these main principles:
 

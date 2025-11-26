@@ -190,6 +190,6 @@ Every block is:
 
 ### Future-proof
 
-v0.0.2 can evolve into v0.0.3 without breaking backward compatibility.
+v0.0.2 can evolve into v0.0.1 without breaking backward compatibility.
 
 ---

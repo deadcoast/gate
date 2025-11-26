@@ -1,8 +1,8 @@
-# FULL SPECIFICIATION 0.0.2
+# FULL SPECIFICIATION 0.0.1
 
 ## **THE COMPLETE SELF-CONTAINED UNIVERSE + DEV ENVIRONMENT + LANGUAGE ECOSYSTEM**
 
-`gate` 0.0.2 is:
+`gate` 0.0.1 is:
 
 ✔ A full language
 ✔ A metaphysical framework
