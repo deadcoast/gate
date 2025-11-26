@@ -16,6 +16,7 @@
 - [Design Review Notes](design_review.md)
 - [Syntax Highlighter Guide](syntax_highlighter.md)
 - [SLEDGE Manifesto (Module E)](modules/module_e.md)
+- [F2 Compiler Trace Emitter (Module G)](modules/module_g.md)
 
 ---
 

@@ -1,4 +1,4 @@
-# MODULE F2
+# MODULE G — F2 COMPILER TRACE EMITTER
 
 ### MOC — GitHub Navigation
 

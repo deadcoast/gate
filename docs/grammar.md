@@ -34,6 +34,38 @@ This grammar defines that engine.
 
 ---
 
+## Extended Operator Canon (v1–v3 alignment)
+
+```
+#======================================================================
+# OPERATOR CANON (v1–v3)
+#======================================================================
+::=   bind/define (v1 core)
+--    decrement resource (v1 core)
+++    increment resource (v1 core)
+=>    state transition arrow (v1 core)
+::    namespace separator (v1 core)
+>out  state/log emission (v1 core)
+!admin high-privilege directive (v1 core)
+!system system warning directive (v1 core)
+?confirm user confirmation gate (v1 core)
+Δ     delta shift / state difference (v2 extension)
+↯     intent discharge / human declaration energy (v2 extension)
+⌘     authority root / human witness anchor (v2 extension)
+⌾     realm alignment / resonance binding (v2 extension)
+⇜     meaning pull / symbolic attraction (v2 extension)
+⇝     meaning push / symbolic projection (v2 extension)
+⛒     boundary operator / constraint anchor (v2 extension)
+ϟ     sledge spark / gate break force (v2 extension)
+→     flow/transition arrow (v1/v2 narrative)
+#==   section marker for trace/log segments (v1+)
+⇹     entanglement link / relational tether (v3 evolution layer)
+```
+
+These operator meanings align Modules A–C (core prompt, metaphysics, and standard library), Module F (evolution layer), and Module G/F2 (compiler traces) so the grammar stays consistent with the merged docs.
+
+---
+
 ## **GATE PATTERN — FORMAL GRAMMAR (E-BNF Inspired, Pattern-Driven)**
 
 ```

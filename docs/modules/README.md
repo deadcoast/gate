@@ -15,7 +15,7 @@
 - [Module D — Interpreter Specification v1.0/v2.0](module_d.md)
 - [Module E — Formal SLEDGE Manifesto](module_e.md)
 - [Module F — Gate Pattern v3.0: Total Evolution Layer](module_f.md)
-- [Module G — Compiler Execution Trace Emitter (F2)](module_g.md)
+- [Module G — F2 Compiler Trace Emitter](module_g.md)
 - [Docs Hub](../README.md)
 - [Full Specification](../full_spec.md)
 - [Grammar Reference](../grammar.md)

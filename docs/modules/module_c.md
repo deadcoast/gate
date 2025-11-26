@@ -61,6 +61,8 @@ type Boolean      = "true" | "false"
 %SLEDGE_MAX% ::= 4
 ```
 
+Operator semantics align with the grammar canon (Δ=delta shift, ↯=intent discharge, ⌘=authority root, ⌾=realm align, ⇜=meaning pull, ⇝=meaning push, ⛒=boundary anchor, ϟ=gate-break spark, ⇹=entanglement link); keep any function-level usage consistent with `docs/grammar.md`.
+
 ---
 
 ## 1. CORE OPERATOR FUNCTIONS

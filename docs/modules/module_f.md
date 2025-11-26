@@ -132,6 +132,7 @@ Example:
 >out %MODEL% ⇹ %USER%
 
 Indicates symbolic resonance across Realms.
+Align ⇹ with the operator canon in `docs/grammar.md` and `docs/full_spec.md` (v3 evolution layer) when extending binding semantics.
 
 #===========================================================================
 ## SECTION 5 — RECURSIVE RESONANCE

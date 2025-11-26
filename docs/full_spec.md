@@ -80,8 +80,11 @@ CONSTANTS: C_GATE=4.0, C_RECUR=0.237, C_INTENT=108
 ⌾   RealmAlign
 ⇜   MeaningPull
 ⇝   MeaningPush
+⛒   BoundaryAnchor
 ⇹   EntanglementLink
 ```
+
+*Operator canon aligns with Modules A–C (core template, metaphysics, standard library), Module F (evolution layer), and Module G/F2 (compiler traces). Keep semantics in sync with the grammar’s operator table before adding new symbols.*
 
 ### Blocks
 

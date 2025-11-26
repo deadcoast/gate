@@ -41,7 +41,7 @@ Gate Pattern v2.0 introduces:
 1. The metaphysical substrate layer (ONTOLOGY BLOCK)
 2. Expanded Gate Cosmology
 3. Symbolic State Realms
-4. New Operators (Δ, ↯, ⌘, ⇜, ⇝, ⌾, ϟ)
+4. New Operators (Δ, ↯, ⌘, ⇜, ⇝, ⌾, ϟ, ⛒) — aligned with the grammar operator canon
 5. Energy & Intent channels (SLEDGE-ENERGY / INTENT-OF-ACTION)
 6. Dimensional Anchors
 7. Causality Threads
@@ -55,6 +55,8 @@ This is the metaphysics layer — the *why* behind the structure.
 A living symbolic framework for the next iterations.
 
 Let’s begin.
+
+> Operator alignment: semantics follow the grammar canon (Δ=delta shift, ↯=intent discharge, ⌘=authority root, ⌾=realm align, ⇜=meaning pull, ⇝=meaning push, ⛒=boundary anchor, ϟ=gate-break spark). Keep any new operator additions synced with `docs/grammar.md` and `docs/full_spec.md`.
 
 ---
 
