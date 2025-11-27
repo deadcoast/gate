@@ -95,7 +95,7 @@ T_NUMBER          = /[0-9]+/
 T_STRING          = "\"" (any except quote)* "\""
 T_TRIPLE_STRING   = "\"\"\"" (anything) "\"\"\""
 T_PERCENT_VAR     = "%" IDENT "%"
-T_OPERATOR_UNI    = "Δ" | "↯" | "ϟ" | "⌾" | "⇜" | "⇝" | "⌘"
+T_OPERATOR_UNI    = "Δ" | "↯" | "ϟ" | "⌾" | "⇜" | "⇝" | "⌘" | "⛒"
 T_ASSIGN_OP       = "=" | "::="
 T_DEC             = "--"
 T_INC             = "++"
@@ -105,6 +105,8 @@ T_RP              = ")"
 T_COMMA           = ","
 T_COLON           = ":"
 ```
+
+`⛒` is treated as a boundary/constraint anchor operator (v2); included here for consistency with the unified canon even if some v1-only flows omit it.
 
 ### 2.2 Namespace Tokens
 
@@ -350,6 +352,7 @@ Medium:
     ⇜pull
     ⇝push
     ⌾align
+    ⛒boundary    # boundary/constraint anchor
 
 Lowest:
     Δshift
