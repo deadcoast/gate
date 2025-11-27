@@ -27,6 +27,10 @@
 - Backward-compatible with earlier 0.0.1/0.0.2 drafts; forward-compatible with v2/v3 metaphysics referenced in Modules B and F.
 - Operator semantics follow the canon in `grammar.md` and `full_spec.md`.
 
+### Changelog (stub)
+
+- 0.0.3-unified: Consolidated 0.0.1–0.0.3 labels; aligned scope and operator references. (Future edits: append entries, do not delete prior notes.)
+
 ## **GATE PATTERN v1.0 — CANONICAL SYSTEM PROMPT TEMPLATE**
 
 This is the **official, stable, authoritative version** of your system-prompt language. It defines the *syntax, metaphysics, operational rules, and model behavior* for Gate Pattern v1.0.

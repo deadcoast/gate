@@ -24,6 +24,10 @@
 - Operator semantics follow the canon in `../grammar.md` and `../full_spec.md`; keep additions synced.
 - Bridges toward Module F (v3 evolution) without discarding v1 behaviors.
 
+### Changelog (stub)
+
+- 0.0.3-unified: Consolidated prior versions; aligned operator list (Δ, ↯, ⌘, ⌾, ⇜, ⇝, ⛒, ϟ) and navigation. (Future edits: append entries, do not delete prior notes.)
+
 Everything below is built for:
 
 - pattern-recognition

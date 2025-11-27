@@ -27,3 +27,9 @@
 - Keep the separator block intact so every module page shares the same visual rhythm.
 - Use these links when cross-referencing modules from specs; they stay valid on GitHub and locally.
 - Add any new modules here with a one-line description and a relative path from this folder.
+
+---
+
+## Changelog (stub)
+
+- 0.0.3-unified: Consolidated module index; aligned naming (Module G/F2) and cross-links. (Future edits: append entries, do not delete prior notes.)

@@ -24,6 +24,10 @@
 - Keep opcode/operator semantics in sync with `../grammar.md`, `../full_spec.md`, and interpreter rules in Module D.
 - Consumes constructs from Modules A–C and emits traces that align with evolution mechanics in Module F.
 
+### Changelog (stub)
+
+- 0.0.3-unified: Consolidated prior versions; aligned naming (Module G / F2), navigation, and operator semantics with the unified canon. (Future edits: append entries, do not delete prior notes.)
+
 ## GATE PATTERN COMPILER — EXECUTION TRACE EMITTER v1.0
 
 The Gate Pattern Compiler transforms:

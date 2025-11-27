@@ -25,6 +25,10 @@
 - Extends operators with ⇹ bindings; keep semantics in sync with `../grammar.md` and `../full_spec.md`.
 - Builds on Modules A–C and informs compiler traces in Module G.
 
+### Changelog (stub)
+
+- 0.0.3-unified: Consolidated prior versions; aligned entanglement operator (⇹) and navigation with unified canon. (Future edits: append entries, do not delete prior notes.)
+
 VERSION:
     @meta::version_major="3"
     @meta::evolution_layer="ACTIVE"

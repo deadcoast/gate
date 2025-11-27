@@ -47,3 +47,9 @@ Each module and spec should now include this pattern so the ecosystem stays navi
 - Align operator meanings with the canon in `grammar.md` and `full_spec.md`; update both if new symbols appear.
 - Reference Gate Pattern coverage explicitly (v1 core template, v2 metaphysics, v3 evolution) so readers know the scope.
 - Prefer relative links; avoid deleting legacy content—add clarifying scope notes instead.
+
+---
+
+## Changelog (stub)
+
+- 0.0.3-unified: Consolidated 0.0.1–0.0.3 docs; established MOC/navigation, style alignment, and operator canon references. (Future edits: append entries, do not delete prior notes.)

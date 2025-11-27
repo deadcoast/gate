@@ -40,6 +40,10 @@ This grammar defines that engine.
 - Operator meanings are defined in the “Operator Canon (v1–v3)” section; keep aligned with `full_spec.md` and Modules A–G.
 - Use this file as the reference when updating the VS Code grammar or parser implementations.
 
+### Changelog (stub)
+
+- 0.0.3-unified: Consolidated 0.0.1–0.0.3 grammar; added operator canon alignment. (Future edits: append entries, do not delete prior notes.)
+
 ## Extended Operator Canon (v1–v3 alignment)
 
 ```

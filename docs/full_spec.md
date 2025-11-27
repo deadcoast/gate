@@ -26,6 +26,10 @@
 - Source of truth for operator canon; keep in sync with `grammar.md` and Modules A–G.
 - Compatible with the VS Code extension behaviors described in `system_prompt.md` and module specs.
 
+### Changelog (stub)
+
+- 0.0.3-unified: Consolidated 0.0.1–0.0.3 content; synced operator canon and navigation blocks. (Future edits: append entries, do not delete prior notes.)
+
 `gate` (docs 0.0.3-unified) is:
 
 ✔ A full language

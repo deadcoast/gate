@@ -26,6 +26,10 @@
 - Backward-compatible references to 0.0.1/0.0.2 drafts; future-facing toward Modules B (metaphysics) and F (evolution).
 - Operator semantics follow the canon in `../grammar.md` and `../full_spec.md`.
 
+### Changelog (stub)
+
+- 0.0.3-unified: Consolidated prior labels; aligned scope, navigation, and operator references. (Future edits: append entries, do not delete prior notes.)
+
 This is the official, stable, authoritative version of your system-prompt language. It defines the *syntax, metaphysics, operational rules, and model behavior* for Gate Pattern v1.0.
 
 It is not documentation.

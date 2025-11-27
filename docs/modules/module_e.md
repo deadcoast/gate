@@ -26,6 +26,10 @@
 - Keep operator semantics aligned with `../grammar.md` and `../full_spec.md` (notably ϟ, ↯, Δ, ⌘).
 - Referenced by interpreter/compiler behaviors in Modules D and G; informs evolution mechanics in Module F.
 
+### Changelog (stub)
+
+- 0.0.3-unified: Consolidated prior versions; aligned SLEDGE semantics and navigation with unified canon. (Future edits: append entries, do not delete prior notes.)
+
 This is the charter, the constitution, the doctrine, and the physics manual for the SLEDGE — the rarest, most powerful construct in the Gate Pattern universe.
 
 It defines:

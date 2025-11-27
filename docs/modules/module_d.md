@@ -24,6 +24,10 @@
 - Keep tokenizer/parser/operator semantics synchronized with `../grammar.md` and `../full_spec.md`.
 - Provides the conceptual base for the compiler/trace emitter in Module G.
 
+### Changelog (stub)
+
+- 0.0.3-unified: Consolidated prior versions; aligned navigation and operator semantics with grammar/full_spec. (Future edits: append entries, do not delete prior notes.)
+
 ## GATE PATTERN INTERPRETER SPECIFICATION v1.0/v2.0
 
 This specification defines the *mechanics* of how a Gate Pattern program is processed.

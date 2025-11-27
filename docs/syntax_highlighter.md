@@ -24,6 +24,10 @@
 - Keep operator scopes and token classes in sync with `grammar.md` and the operator canon in `full_spec.md`.
 - Applicable to VS Code, Prism, Highlight.js, CodeMirror, or any regex-based highlighter.
 
+### Changelog (stub)
+
+- 0.0.3-unified: Consolidated prior versions; aligned navigation and operator scope guidance. (Future edits: append entries, do not delete prior notes.)
+
 ## *(for VSCode, Prism.js, Highlight.js, CodeMirror, or any regex-based highlighter)*
 
 ### Now with 65% more sass than needed

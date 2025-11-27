@@ -24,6 +24,10 @@
 - Use alongside `system_prompt.md` and `full_spec.md` to keep future revisions consistent with the intended metaphysics and operator canon.
 - Not a template; serves as rationale for architectural choices and guardrails.
 
+### Changelog (stub)
+
+- 0.0.3-unified: Consolidated references; aligned navigation and scope with merged docs. (Future edits: append entries, do not delete prior notes.)
+
 The design follows these main principles:
 
 • pattern-first
