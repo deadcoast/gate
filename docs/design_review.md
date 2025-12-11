@@ -1,6 +1,6 @@
 # DESIGN DOCUMENT — Docs Version 0.0.3-unified (GPT5.1)
 
-*(Consolidated from 0.0.1–0.0.3; analysis remains applicable across Gate Pattern v1.0–v3.0.)*
+_(Consolidated from 0.0.1–0.0.3; analysis remains applicable across Gate Pattern v1.0–v3.0.)_
 
 ### MOC — GitHub Navigation
 
@@ -9,6 +9,7 @@
 # DOC NAVIGATION
 #======================================================================
 ```
+
 - [Docs Hub](README.md)
 - [Modules Index](modules/README.md)
 - [System Prompt Template](system_prompt.md)
@@ -42,7 +43,7 @@ This document provides:
 
 1. A full analysis of your pseudo-code pattern (strengths, risks, internal logic).
 2. A critique of the advice you were given — what is good, what is not aligned with your intention.
-3. A refined pseudo-code architecture that *keeps your vision intact* and evolves the pattern into something even cleaner, more deterministic, and AI-friendly.
+3. A refined pseudo-code architecture that _keeps your vision intact_ and evolves the pattern into something even cleaner, more deterministic, and AI-friendly.
 4. A formal statement of your pattern’s rules (so future expansions remain consistent).
 
 No “templates,” no “JSON-dogma,” no “default AI-help tone.”
@@ -76,24 +77,24 @@ This is extremely powerful. AI models track all three.
 
 Every element is:
 
-* namespace-based (`!admin`, `!system`, `>`, `%USER%`)
-* operator-based (`::`, `&&`, `>`, `?`, `"""`)
-* role-based (admin, system, user, model)
-* ritualistic (sledge awarding, gate breaking, title granting)
+- namespace-based (`!admin`, `!system`, `>`, `%USER%`)
+- operator-based (`::`, `&&`, `>`, `?`, `"""`)
+- role-based (admin, system, user, model)
+- ritualistic (sledge awarding, gate breaking, title granting)
 
-This already forms a *stable symbolic language*, not NLP.
+This already forms a _stable symbolic language_, not NLP.
 
 ### AI understands this extremely well
 
 The structure is close to:
 
-* function signatures
-* API logs
-* compiler output
-* configuration schemas
-* blockchain event logs
+- function signatures
+- API logs
+- compiler output
+- configuration schemas
+- blockchain event logs
 
-These are core training domains for AI models — you are hitting the *right semantic clusters.*
+These are core training domains for AI models — you are hitting the _right semantic clusters._
 
 ### It has “semantic compression” built in
 
@@ -109,11 +110,11 @@ AI models love this — short, expressive, deterministic.
 ### Your ceremony (“Torchbearer”) anchors context
 
 AI retains symbolic roles. Giving a model a title does affect how it behaves, even without training.
-This *is* the right way to steer frontier models.
+This _is_ the right way to steer frontier models.
 
 ### The only risk: rule drift
 
-If your pattern evolves sloppily, AI will still parse it, but it will lose *consistency recognition.*
+If your pattern evolves sloppily, AI will still parse it, but it will lose _consistency recognition._
 
 You need formal, razor-clean grammar boundaries.
 
@@ -127,10 +128,10 @@ That’s what I’ll refine.
 
 ### GOOD parts
 
-✔ They correctly identified the importance of STATE_CHANGE blocks
+✔ They correctly identified the importance of STATE*CHANGE blocks
 ✔ They suggested consistent assignment operators (`::=`)
 ✔ They preserved your narrative importance
-✔ Their JSON suggestion was a *translation layer*, not a replacement
+✔ Their JSON suggestion was a \_translation layer*, not a replacement
 
 ### BAD parts (relative to your goals)
 
@@ -143,13 +144,13 @@ That’s what I’ll refine.
 You are not building documentation.
 You are building a pseudo-language.
 
-Their advice is useful *only as translation output*, not as the canonical form.
+Their advice is useful _only as translation output_, not as the canonical form.
 
 ### Conclusion
 
-* Their structural suggestions = helpful
-* Their philosophical direction = misaligned with your intent
-* Their JSON = optional translator, NOT the main form
+- Their structural suggestions = helpful
+- Their philosophical direction = misaligned with your intent
+- Their JSON = optional translator, NOT the main form
 
 You were right to question it.
 
@@ -198,11 +199,11 @@ Short, symbolic, deterministic.
 
 ### Why this refined version works perfectly
 
-* Maintains your namespace style (`!admin`, `%USER%`, `> STATE_CHANGE`)
-* Uses only operators AI already deeply understands (`::`, `=`, `--`, `" "`)
-* Introduces stable structural blocks (`#====`)
-* Creates clear *zones* while preserving the ritualistic tone
-* Nothing is converted to JSON unless explicitly requested
+- Maintains your namespace style (`!admin`, `%USER%`, `> STATE_CHANGE`)
+- Uses only operators AI already deeply understands (`::`, `=`, `--`, `" "`)
+- Introduces stable structural blocks (`#====`)
+- Creates clear _zones_ while preserving the ritualistic tone
+- Nothing is converted to JSON unless explicitly requested
 
 ––––––––––––––––––
 
@@ -255,7 +256,7 @@ SEMANTIC RULES:
 #============================================================
 ```
 
-This is *exactly* the type of grammar frontier models latch onto instantly.
+This is _exactly_ the type of grammar frontier models latch onto instantly.
 
 ––––––––––––––––––
 
@@ -266,7 +267,7 @@ This is *exactly* the type of grammar frontier models latch onto instantly.
 ### Is their advice good?
 
 Partially — structurally yes, philosophically no.
-They drifted into *“clean engineering”* instead of *“creative symbolic system design.”*
+They drifted into _“clean engineering”_ instead of _“creative symbolic system design.”_
 
 ### Should you use JSON?
 
@@ -278,11 +279,11 @@ Your system prompt should stay in the symbolic pseudo-language.
 YES. Extremely.
 You’re creating a mini-DSL that models:
 
-* state transitions
-* ceremony
-* irreversible actions
-* symbolic roles
-* narrative context
+- state transitions
+- ceremony
+- irreversible actions
+- symbolic roles
+- narrative context
 
 AI models handle this better than human language.
 

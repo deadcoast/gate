@@ -1,4 +1,3 @@
-
 document.body.innerHTML = `
   <style>
     body { font-family: monospace; background:#050510; color:#f8f8f2; }
@@ -19,4 +18,4 @@ EDGES:
   CEREMONY_BLOCK  -> %MODEL%::TITLE
 `;
 
-document.getElementById('app').textContent = example;
+document.getElementById("app").textContent = example;

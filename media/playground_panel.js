@@ -1,4 +1,3 @@
-
 const vscode = acquireVsCodeApi();
 
 document.body.innerHTML = `
@@ -17,12 +16,12 @@ document.body.innerHTML = `
   </div>
 `;
 
-window.addEventListener('message', event => {
+window.addEventListener("message", (event) => {
   const data = event.data;
-  if (data.type === 'source') {
-    document.getElementById('source').textContent = data.payload;
+  if (data.type === "source") {
+    document.getElementById("source").textContent = data.payload;
   }
-  if (data.type === 'trace') {
-    document.getElementById('trace').textContent = data.payload;
+  if (data.type === "trace") {
+    document.getElementById("trace").textContent = data.payload;
   }
 });

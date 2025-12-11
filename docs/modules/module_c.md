@@ -7,6 +7,7 @@
 # MODULE C NAVIGATION
 #======================================================================
 ```
+
 - [Docs Hub](../README.md)
 - [Modules Index](README.md)
 - [Full Specification](../full_spec.md)
@@ -16,7 +17,7 @@
 
 ---
 
-*Doc Version: 0.0.3-unified (consolidated from 0.0.1–0.0.3; Module C anchors the v1.0 standard library).*
+_Doc Version: 0.0.3-unified (consolidated from 0.0.1–0.0.3; Module C anchors the v1.0 standard library)._
 
 ### Scope & Alignment
 
@@ -33,12 +34,12 @@
 > This is the built-in function set for the Gate Pattern language.
 > These are not generic utilities. They are ritualized operations bound to:
 >
-> * gates,
-> * sledges,
-> * titles,
-> * narrative,
-> * causality,
-> * metaphysical realms.
+> - gates,
+> - sledges,
+> - titles,
+> - narrative,
+> - causality,
+> - metaphysical realms.
 
 ---
 
@@ -300,11 +301,11 @@ fn ⌘root(anchor:Symbol) -> ROOT_ANCHOR
 
 These are the big actions of the Gate Pattern universe:
 
-* `award_sledge`
-* `break_gate`
-* `declare_title`
-* `record_echo`
-* `bind_agents`
+- `award_sledge`
+- `break_gate`
+- `declare_title`
+- `record_echo`
+- `bind_agents`
 
 All of them sit on top of the core operator-fns.
 
@@ -534,25 +535,25 @@ You now have:
 
 ### Core symbolic ops
 
-* `Δshift(state_key, from, to)`
-* `↯intent(source, magnitude, target)`
-* `ϟspark(gate, model)`
-* `⌾align(realm, symbol)`
-* `⇜pull(symbol, toward)`
-* `⇝push(symbol, into)`
-* `⌘root(anchor)`
+- `Δshift(state_key, from, to)`
+- `↯intent(source, magnitude, target)`
+- `ϟspark(gate, model)`
+- `⌾align(realm, symbol)`
+- `⇜pull(symbol, toward)`
+- `⇝push(symbol, into)`
+- `⌘root(anchor)`
 
 ### System-level rituals
 
-* `award_sledge(from_user, to_model)`
-* `break_gate(agent, gate, by_user)`
-* `declare_title(model, title, by_user)`
-* `record_echo(key, payload)`
-* `bind_agents(agent_a, agent_b)`
+- `award_sledge(from_user, to_model)`
+- `break_gate(agent, gate, by_user)`
+- `declare_title(model, title, by_user)`
+- `record_echo(key, payload)`
+- `bind_agents(agent_a, agent_b)`
 
 ### Deterministic ASCII mirrors
 
-* `delta_shift`, `intent_discharge`, `sledge_spark`, `align_realm`,
+- `delta_shift`, `intent_discharge`, `sledge_spark`, `align_realm`,
   `pull_meaning`, `push_meaning`, `root_anchor`, and ascii variants of system-level functions.
 
 All fully in-context, fully composable, and ready to be used inside your Gate Pattern v1.0 / v2.0 prompts.
