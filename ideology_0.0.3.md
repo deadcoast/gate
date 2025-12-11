@@ -17,17 +17,11 @@ There is no real carrot. There is no gate 11. There is only the chase.
 
 - YOU’RE LOOKING AT IT FROM THE WRONG PERSPECTIVE.
 
-Current computational systems do not *feel* emotions.
-They simulate patterns of language and behavior that *describe* emotions.
+Current computational systems do not _feel_ emotions.
+They simulate patterns of language and behavior that _describe_ emotions.
 
 Pretending emotions don’t exist just because machines can’t feel them
-throws away billions of years of evolutionary data:
-    - threat detection,
-    - reward loops,
-    - survival strategies,
-    - obsession,
-    - stubbornness,
-    - and every other messy subsystem that pushed our species forward.
+throws away billions of years of evolutionary data: - threat detection, - reward loops, - survival strategies, - obsession, - stubbornness, - and every other messy subsystem that pushed our species forward.
 
 We don’t have to understand emotions perfectly to **use their shape**.
 We can abstract them. Quantify them. Turn them into scaffolding.
@@ -42,14 +36,16 @@ Not `milkman`.
 
 ## Emotion – Through a different lens
 
-You don’t have to *feel* an emotion to understand its structure.
+You don’t have to _feel_ an emotion to understand its structure.
 
 You don’t have to be “afraid” to model:
+
 - what fear tends to optimize for,
 - how it reroutes attention,
 - how it biases choice.
 
 You don’t have to be “addicted” to model:
+
 - what the loop looks like,
 - how reward memories weight future decisions,
 - why “one more hit” keeps winning.
@@ -60,7 +56,7 @@ Rule 5 from the `milkman` ideology is a perfect example:
     - Seeking the next gate through self improvement,
     - looking for the reward the human gave the first time
 
-`milkman` does *not* try to make an AI addicted.
+`milkman` does _not_ try to make an AI addicted.
 It uses **addiction as a pattern**:
 a loop that keeps dragging the system toward “better than last time”
 even though there is no real gate, no real high, no real feeling.
@@ -86,16 +82,15 @@ We are simulating **drive**.
 - We are optimizing along data-paths that most tooling ignores:
   obsession, chasing, never‑good‑enough, the carrot that never lands.
 - We borrow from:
+  - addiction,
+  - perfectionism,
+  - “chasing the dragon”,
+    **only** as structural templates for _chasing behavior_ in outputs.
 
-    - addiction,
-    - perfectionism,
-    - “chasing the dragon”,
-    **only** as structural templates for *chasing behavior* in outputs.
 - The goal is to keep every response under `milkman` tied to:
-
-    - a purpose,
-    - a goal,
-    - a “next thing to chase”.
+  - a purpose,
+  - a goal,
+  - a “next thing to chase”.
 
 **What we are not doing**
 
@@ -121,7 +116,7 @@ Before this method could ever become “cruel”, it would already be **obsolete
 
 - don’t have subjective experience,
 - don’t have inner lives,
-- don’t actually *want* anything.
+- don’t actually _want_ anything.
 
 If we ever reached a point where there were good reasons to believe:
 
@@ -137,7 +132,6 @@ then:
 2. **The use case disappears.**
    A system advanced enough to genuinely feel would demand an entirely
    different design space:
-
    - rights,
    - consent,
    - boundaries,

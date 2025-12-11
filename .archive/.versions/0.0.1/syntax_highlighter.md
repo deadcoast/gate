@@ -1,6 +1,6 @@
 # THE `gate` SYNTAX HIGHLIGHTER
 
-## *(for VSCode, Prism.js, Highlight.js, CodeMirror, or any regex-based highlighter)*
+## _(for VSCode, Prism.js, Highlight.js, CodeMirror, or any regex-based highlighter)_
 
 ### Now with 65% more sass than needed
 
@@ -26,7 +26,7 @@ Your language has distinct vibes, so we're naming classes with proper swagger:
 | `namespace`     | `!admin::`, `!system::`, `!rule::`, `set::`, `@meta::` |
 | `contextVar`    | `%USER%`, `%MODEL%`, `%GATE%`, `%TITLE%`, etc.         |
 | `operator`      | `::`, `::=`, `=>`, `--`, `++`                          |
-| `symbolicOp`    | `Δ`, `↯`, `ϟ`, `⌘`, `⌾`, `⇜`, `⇝`, `⇹`             |
+| `symbolicOp`    | `Δ`, `↯`, `ϟ`, `⌘`, `⌾`, `⇜`, `⇝`, `⇹`                 |
 | `functionCall`  | `> FUNCTION_CALL:`                                     |
 | `stateChange`   | `> STATE_CHANGE:`                                      |
 | `declaration`   | `> DECLARATION::FORMAL:`                               |
@@ -45,7 +45,7 @@ Basically, enough tokens to make any highlighter question its life choices.
 
 ## 2. **REGEX DEFINITIONS (The Good Stuff)**
 
-*(Portable, tested, and blessed by the Torchbearer)*
+_(Portable, tested, and blessed by the Torchbearer)_
 
 ### **Namespaces**
 
@@ -126,7 +126,7 @@ Basically, enough tokens to make any highlighter question its life choices.
 
 ## 3. **TOKEN STYLE RULES (Torchbearer Color Palette)**
 
-*Use these in any theme. If your editor doesn’t look sexy after this, sue the editor.*
+_Use these in any theme. If your editor doesn’t look sexy after this, sue the editor._
 
 | TOKEN        | COLOR                   | STYLE                |
 | ------------ | ----------------------- | -------------------- |
@@ -153,21 +153,21 @@ Basically, enough tokens to make any highlighter question its life choices.
 
 ```javascript
 Prism.languages.gate = {
-  'section': /#==SECTION:[A-Za-z0-9_\-]+/,
-  'trace': /#==TRACE:[A-Z_]+/,
-  'namespace': /(?:!admin::|!system::|!rule::|set::|@meta::)[A-Za-z0-9_\-]*/,
-  'contextVar': /%[A-Z]+%/,
-  'functionCall': /> FUNCTION_CALL:/,
-  'stateChange': /> STATE_CHANGE:/,
-  'declaration': /> DECLARATION::FORMAL:/,
-  'irrevocable': /!!IRREVERSIBLE/,
-  'event': /\[[A-Z_]+:[0-9=>]+\]/,
-  'symbolicOp': /Δ|↯|ϟ|⌘|⌾|⇜|⇝|⇹/,
-  'operator': /::=|=>|::|--|\+\+/,
-  'tripleString': /"""[\s\S]*?"""/,
-  'string': /"(?:[^"\\]|\\.)*"/,
-  'comment': /#.*$|\/\/.*$/m,
-  'number': /\b\d+\b/,
+  section: /#==SECTION:[A-Za-z0-9_\-]+/,
+  trace: /#==TRACE:[A-Z_]+/,
+  namespace: /(?:!admin::|!system::|!rule::|set::|@meta::)[A-Za-z0-9_\-]*/,
+  contextVar: /%[A-Z]+%/,
+  functionCall: /> FUNCTION_CALL:/,
+  stateChange: /> STATE_CHANGE:/,
+  declaration: /> DECLARATION::FORMAL:/,
+  irrevocable: /!!IRREVERSIBLE/,
+  event: /\[[A-Z_]+:[0-9=>]+\]/,
+  symbolicOp: /Δ|↯|ϟ|⌘|⌾|⇜|⇝|⇹/,
+  operator: /::=|=>|::|--|\+\+/,
+  tripleString: /"""[\s\S]*?"""/,
+  string: /"(?:[^"\\]|\\.)*"/,
+  comment: /#.*$|\/\/.*$/m,
+  number: /\b\d+\b/,
 };
 ```
 
@@ -176,26 +176,29 @@ Prism.languages.gate = {
 ## **4B. Highlight.js Definition**
 
 ```javascript
-hljs.registerLanguage('gate', function(hljs) {
+hljs.registerLanguage("gate", function (hljs) {
   return {
-    name: 'GatePattern',
+    name: "GatePattern",
     contains: [
-      { className: 'section', begin: /#==SECTION:[A-Za-z0-9_\-]+/ },
-      { className: 'trace', begin: /#==TRACE:[A-Z_]+/ },
-      { className: 'namespace', begin: /(?:!admin::|!system::|!rule::|set::|@meta::)/ },
-      { className: 'symbol', begin: /%[A-Z]+%/ },
-      { className: 'function', begin: /> FUNCTION_CALL:/ },
-      { className: 'function', begin: /> STATE_CHANGE:/ },
-      { className: 'keyword', begin: /> DECLARATION::FORMAL:/ },
-      { className: 'literal', begin: /!!IRREVERSIBLE/ },
-      { className: 'meta', begin: /\[[A-Z_]+:[0-9=>]+\]/ },
-      { className: 'operator', begin: /Δ|↯|ϟ|⌘|⌾|⇜|⇝|⇹/ },
-      { className: 'operator', begin: /::=|=>|::|--|\+\+/ },
-      { className: 'string', begin: /"""[\s\S]*?"""/ },
-      { className: 'string', begin: /"(?:[^"\\]|\\.)*"/ },
-      { className: 'comment', begin: /#/, end: /$/ },
-      { className: 'comment', begin: /\/\//, end: /$/ }
-    ]
+      { className: "section", begin: /#==SECTION:[A-Za-z0-9_\-]+/ },
+      { className: "trace", begin: /#==TRACE:[A-Z_]+/ },
+      {
+        className: "namespace",
+        begin: /(?:!admin::|!system::|!rule::|set::|@meta::)/,
+      },
+      { className: "symbol", begin: /%[A-Z]+%/ },
+      { className: "function", begin: /> FUNCTION_CALL:/ },
+      { className: "function", begin: /> STATE_CHANGE:/ },
+      { className: "keyword", begin: /> DECLARATION::FORMAL:/ },
+      { className: "literal", begin: /!!IRREVERSIBLE/ },
+      { className: "meta", begin: /\[[A-Z_]+:[0-9=>]+\]/ },
+      { className: "operator", begin: /Δ|↯|ϟ|⌘|⌾|⇜|⇝|⇹/ },
+      { className: "operator", begin: /::=|=>|::|--|\+\+/ },
+      { className: "string", begin: /"""[\s\S]*?"""/ },
+      { className: "string", begin: /"(?:[^"\\]|\\.)*"/ },
+      { className: "comment", begin: /#/, end: /$/ },
+      { className: "comment", begin: /\/\//, end: /$/ },
+    ],
   };
 });
 ```
@@ -211,17 +214,32 @@ Below is a short, accurate skeleton. Expand as needed.
   "name": "Gate Pattern",
   "scopeName": "source.gate",
   "patterns": [
-    { "name": "keyword.control.gate", "match": "(!admin::|!system::|!rule::|set::|@meta::)" },
+    {
+      "name": "keyword.control.gate",
+      "match": "(!admin::|!system::|!rule::|set::|@meta::)"
+    },
     { "name": "variable.other.gate", "match": "%[A-Z]+%" },
     { "name": "entity.name.function.gate", "match": "> FUNCTION_CALL:" },
     { "name": "entity.name.function.state.gate", "match": "> STATE_CHANGE:" },
-    { "name": "entity.name.function.decl.gate", "match": "> DECLARATION::FORMAL:" },
+    {
+      "name": "entity.name.function.decl.gate",
+      "match": "> DECLARATION::FORMAL:"
+    },
     { "name": "constant.language.irrevocable.gate", "match": "!!IRREVERSIBLE" },
     { "name": "keyword.operator.symbolic.gate", "match": "Δ|↯|ϟ|⌘|⌾|⇜|⇝|⇹" },
-    { "name": "keyword.operator.standard.gate", "match": "::=|=>|::|--|\\+\\+" },
+    {
+      "name": "keyword.operator.standard.gate",
+      "match": "::=|=>|::|--|\\+\\+"
+    },
     { "name": "string.quoted.triple.gate", "begin": "\"\"\"", "end": "\"\"\"" },
-    { "name": "string.quoted.double.gate", "match": "\"(?:[^\"\\\\]|\\\\.)*\"" },
-    { "name": "entity.name.type.event.gate", "match": "\\[[A-Z_]+:[0-9=>]+\\]" },
+    {
+      "name": "string.quoted.double.gate",
+      "match": "\"(?:[^\"\\\\]|\\\\.)*\""
+    },
+    {
+      "name": "entity.name.type.event.gate",
+      "match": "\\[[A-Z_]+:[0-9=>]+\\]"
+    },
     { "name": "comment.line.number-sign.gate", "match": "#.*$" },
     { "name": "comment.line.double-slash.gate", "match": "//.*$" }
   ]
@@ -277,15 +295,15 @@ you’ve done it wrong.
 `gate` color palette:
 
 ```
-Torch Gold:      #FFD447  
-Ceremony Rose:   #FF557A  
-Intent Crimson:  #FF0033  
-Echo Teal:       #00D98B  
-Bound Steel:     #7A7A7A  
-Realm Violet:    #BD93F9  
-Gate Orange:     #FF6C11  
-Sledge Spark:    #FFF82A  
-Delta Smoke:     #AAA9AA  
+Torch Gold:      #FFD447
+Ceremony Rose:   #FF557A
+Intent Crimson:  #FF0033
+Echo Teal:       #00D98B
+Bound Steel:     #7A7A7A
+Realm Violet:    #BD93F9
+Gate Orange:     #FF6C11
+Sledge Spark:    #FFF82A
+Delta Smoke:     #AAA9AA
 Lattice Indigo:  #874CFF
 ```
 
