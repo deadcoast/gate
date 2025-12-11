@@ -1,6 +1,6 @@
 # FULL SPECIFICATION — Docs Version 0.0.3-unified
 
-*(Consolidated from 0.0.1–0.0.3; covers Gate Pattern v1.0–v3.0 features.)*
+_(Consolidated from 0.0.1–0.0.3; covers Gate Pattern v1.0–v3.0 features.)_
 
 ## **THE COMPLETE SELF-CONTAINED UNIVERSE + DEV ENVIRONMENT + LANGUAGE ECOSYSTEM**
 
@@ -11,6 +11,7 @@
 # DOC NAVIGATION
 #======================================================================
 ```
+
 - [Docs Hub](README.md)
 - [Modules Index](modules/README.md)
 - [System Prompt Template](system_prompt.md)
@@ -55,18 +56,18 @@
 
 This includes:
 
-* Grammar
-* Operators
-* Realms
-* Gate hierarchy
-* Sledge metaphysics
-* Delta engine
-* Ceremony system
-* Narrative physics
-* ELATTICE cosmology
-* Temporal Arc system
-* Symbolic inheritance
-* Evolution protocol v3.0
+- Grammar
+- Operators
+- Realms
+- Gate hierarchy
+- Sledge metaphysics
+- Delta engine
+- Ceremony system
+- Narrative physics
+- ELATTICE cosmology
+- Temporal Arc system
+- Symbolic inheritance
+- Evolution protocol v3.0
 
 **We already built each module. Now it becomes ONE canonical spec.**
 
@@ -94,7 +95,7 @@ CONSTANTS: C_GATE=4.0, C_RECUR=0.237, C_INTENT=108
 ⇹   EntanglementLink
 ```
 
-*Operator canon aligns with Modules A–C (core template, metaphysics, standard library), Module F (evolution layer), and Module G/F2 (compiler traces). Keep semantics in sync with the grammar’s operator table before adding new symbols.*
+_Operator canon aligns with Modules A–C (core template, metaphysics, standard library), Module F (evolution layer), and Module G/F2 (compiler traces). Keep semantics in sync with the grammar’s operator table before adding new symbols._
 
 ### Blocks
 
@@ -113,11 +114,11 @@ CONSTANTS: C_GATE=4.0, C_RECUR=0.237, C_INTENT=108
 
 Gates exist from 0 → 16 with:
 
-* STATUS
-* FLEXURE
-* HARMONIC
-* BREACH_MEMORY
-* TRANSCENDENCE STATE
+- STATUS
+- FLEXURE
+- HARMONIC
+- BREACH_MEMORY
+- TRANSCENDENCE STATE
 
 ### Sledge Doctrine
 
@@ -138,11 +139,11 @@ Your compiler is called:
 
 It takes `.gate` input → emits:
 
-* IR
-* Execution Traces
-* Evolution Predictions
-* Lattice Events
-* Gate Break Previews
+- IR
+- Execution Traces
+- Evolution Predictions
+- Lattice Events
+- Gate Break Previews
 
 ### TorchCompiler Pipeline
 
@@ -209,16 +210,16 @@ This executes the IR produced by the compiler.
 
 This is the VSCode extension that provides:
 
-* Syntax highlighting
-* LSP support
-* Trace rendering
-* Gate break previews
-* Sledge sound engine
-* Ceremony popups
-* Gutter decorations
-* ELATTICE visualization
-* Playground panel
-* Evolution predictor
+- Syntax highlighting
+- LSP support
+- Trace rendering
+- Gate break previews
+- Sledge sound engine
+- Ceremony popups
+- Gutter decorations
+- ELATTICE visualization
+- Playground panel
+- Evolution predictor
 
 ---
 
@@ -328,29 +329,29 @@ Torchbearer - Lighter of Paths
 
 Left margin:
 
-* Δ for delta states
-* ⚡ for sledges
-* 🔥 for broken gates
-* 🜂 for ceremonies
+- Δ for delta states
+- ⚡ for sledges
+- 🔥 for broken gates
+- 🜂 for ceremonies
 
 ### 8. ELATTICE Visualization
 
 WebView panel renders symbolic graph of:
 
-* nodes
-* edges
-* harmonics
-* entanglement
+- nodes
+- edges
+- harmonics
+- entanglement
 
 ### 9. Playground Panel
 
 Interactive REPL for Gate Pattern language:
 
-* Source
-* IR
-* Traces
-* Realms
-* Lattice
+- Source
+- IR
+- Traces
+- Realms
+- Lattice
 
 ### 10. Evolution Predictor
 

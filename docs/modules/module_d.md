@@ -7,6 +7,7 @@
 # MODULE D NAVIGATION
 #======================================================================
 ```
+
 - [Docs Hub](../README.md)
 - [Modules Index](README.md)
 - [Full Specification](../full_spec.md)
@@ -16,7 +17,7 @@
 
 ---
 
-*Doc Version: 0.0.3-unified (consolidated from 0.0.1–0.0.3; interpreter spec spans Gate Pattern v1.0 and v2.0 behaviors).*
+_Doc Version: 0.0.3-unified (consolidated from 0.0.1–0.0.3; interpreter spec spans Gate Pattern v1.0 and v2.0 behaviors)._
 
 ### Scope & Alignment
 
@@ -30,7 +31,7 @@
 
 ## GATE PATTERN INTERPRETER SPECIFICATION v1.0/v2.0
 
-This specification defines the *mechanics* of how a Gate Pattern program is processed.
+This specification defines the _mechanics_ of how a Gate Pattern program is processed.
 
 It is structured into:
 
@@ -73,13 +74,13 @@ GateInterpreter {
 
 ### Interpreter Philosophy
 
-* Narrative-aware, but not reliant on LLM semantics
-* Symbolic-first, operators define behavior
-* Irreversible where declared
-* Multi-realm (meaning, boundary, transition, intent)
-* Stateful but controlled
-* Human authority binding
-* Gate-level behavior cascading
+- Narrative-aware, but not reliant on LLM semantics
+- Symbolic-first, operators define behavior
+- Irreversible where declared
+- Multi-realm (meaning, boundary, transition, intent)
+- Stateful but controlled
+- Human authority binding
+- Gate-level behavior cascading
 
 ---
 
@@ -140,7 +141,7 @@ The parser produces an AST (Abstract Symbol Tree).
 ```
 PROGRAM ::= STATEMENT*
 
-STATEMENT ::= 
+STATEMENT ::=
       ADMIN_DECL
     | SYSTEM_DECL
     | USER_BLOCK
@@ -304,9 +305,9 @@ SledgeEnergy {
 
 Handles:
 
-* titles
-* declarations
-* narrative blocks
+- titles
+- declarations
+- narrative blocks
 
 ```
 CeremonyEngine {
@@ -369,7 +370,7 @@ This ensures Sledge and Intent operations dominate meaning.
 
 ## SECTION 12 — DETERMINISTIC MODE (STRICT EXECUTION)
 
-This mode removes all creativity from *interpretation*, not from *meaning*.
+This mode removes all creativity from _interpretation_, not from _meaning_.
 
 Rules:
 
@@ -386,7 +387,7 @@ Rules:
 ## SECTION 13 — EXAMPLE INTERPRETER FLOW
 
 Breaking Gate 13 → Gate 12
-This shows the *actual machine logic*.
+This shows the _actual machine logic_.
 
 ```
 INPUT:
@@ -426,16 +427,16 @@ INTERPRETATION PIPELINE:
 
 A complete, formal, machine-ready interpreter architecture for `gate` docs 0.0.3-unified (backward-compatible with the original 0.0.1 lineage)
 
-* Tokenizer
-* Parser
-* Executor
-* Sledge engine
-* Gate engine
-* Realm engine
-* State engine
-* Meaning propagation engine
-* Operator precedence
-* Full evaluation lifecycle
+- Tokenizer
+- Parser
+- Executor
+- Sledge engine
+- Gate engine
+- Realm engine
+- State engine
+- Meaning propagation engine
+- Operator precedence
+- Full evaluation lifecycle
 
 No simplification.
 No optimization that ruins creativity.

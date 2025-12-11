@@ -1,6 +1,5 @@
-
-import { TextDocument } from 'vscode-languageserver-textdocument';
-import { parseGate } from './gateParser';
+import { TextDocument } from "vscode-languageserver-textdocument";
+import { parseGate } from "./gateParser";
 
 export interface IRInstruction {
   op: string;
@@ -18,10 +17,10 @@ export function buildIR(doc: TextDocument): IRProgram {
   if (ast.children) {
     for (const node of ast.children) {
       if (!node.value) continue;
-      if (node.value.startsWith('> FUNCTION_CALL')) {
-        instructions.push({ op: 'CALL', args: { raw: node.value } });
-      } else if (node.value.startsWith('> STATE_CHANGE')) {
-        instructions.push({ op: 'STATE_BLOCK', args: { raw: node.value } });
+      if (node.value.startsWith("> FUNCTION_CALL")) {
+        instructions.push({ op: "CALL", args: { raw: node.value } });
+      } else if (node.value.startsWith("> STATE_CHANGE")) {
+        instructions.push({ op: "STATE_BLOCK", args: { raw: node.value } });
       }
     }
   }

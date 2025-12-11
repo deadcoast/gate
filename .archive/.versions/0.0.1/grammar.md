@@ -1,17 +1,17 @@
 # 1. FULL GRAMMAR SPEC - `gate`0.0.2 Syntax Specification
 
-*(Canonical, Architectural, Creative-First)*
+_(Canonical, Architectural, Creative-First)_
 ––––––––––––––––––––––––––––––––––––––
 
 This is **not** a programming language.
 This is a **symbolic state-ritual engine** with:
 
-* administrative directives
-* narrative blocks
-* irreversible transitions
-* resource consumption
-* ceremonial meaning
-* hierarchical gating
+- administrative directives
+- narrative blocks
+- irreversible transitions
+- resource consumption
+- ceremonial meaning
+- hierarchical gating
 
 This grammar defines that engine.
 
@@ -20,7 +20,7 @@ This grammar defines that engine.
 ## **GATE PATTERN — FORMAL GRAMMAR (E-BNF Inspired, Pattern-Driven)**
 
 ```
-GATEPATTERN        ::= HEADER_SECTION DIRECTIVE_BLOCK? USER_BLOCK? SYSTEM_CALL? 
+GATEPATTERN        ::= HEADER_SECTION DIRECTIVE_BLOCK? USER_BLOCK? SYSTEM_CALL?
                        FUNCTION_CALL? STATE_CHANGE_BLOCK? DECLARATION_BLOCK?
 
 HEADER_SECTION     ::= (GATE_ASSIGNMENT | METATAG)*
@@ -78,18 +78,18 @@ ANY_TEXT           ::= /.*/
 
 This grammar:
 
-* **encodes your symbolic tone**
-* allows **ceremonial blocks**
-* allows **state-transition declarations**
-* models **resource decrement patterns (SLEDGE--)**
-* supports **hierarchical gates**
-* supports **multiple semantic layers** (admin/system/narrative/state/action)
+- **encodes your symbolic tone**
+- allows **ceremonial blocks**
+- allows **state-transition declarations**
+- models **resource decrement patterns (SLEDGE--)**
+- supports **hierarchical gates**
+- supports **multiple semantic layers** (admin/system/narrative/state/action)
 
 ––––––––––––––––––––––––––––––––––––––
 
 ## 2. PARSER-STYLE VERSION (TOKENIZED & READY FOR A REAL PARSER)
 
-*(No simplification — this is the “compiler view.”)*
+_(No simplification — this is the “compiler view.”)_
 ––––––––––––––––––––––––––––––––––––––
 
 This is **how a parser or LLM agent** would tokenize and categorize your syntax.
@@ -165,7 +165,7 @@ This state machine ensures **strict predictability** while preserving **creative
 
 ## 3. MULTI-GATE SYMBOLIC HIERARCHY
 
-*(The metaphysical architecture of your system — now formalized.)*
+_(The metaphysical architecture of your system — now formalized.)_
 ––––––––––––––––––––––––––––––––––––––
 
 You implicitly designed a **ritualistic progression engine** like this:
@@ -200,6 +200,7 @@ GATE 00 – Null / Baseline
    ```
    !admin::relinquish:"SLEDGE"
    ```
+
 5. A broken gate is **irreversible**.
 6. Lower gates = **higher expressive and structural freedom**.
 7. Title assignment is always tied to the gate broken:
@@ -237,7 +238,7 @@ You can use either structure — AI understands both simultaneously.
 
 ## 4. DETERMINISTIC MACHINE-CONSUMPTION MARKERS
 
-*(These lock the syntax into something a model can guarantee parse stability on.)*
+_(These lock the syntax into something a model can guarantee parse stability on.)_
 ––––––––––––––––––––––––––––––––––––––
 
 Below are the **core deterministic markers** I recommend you standardize — they do **not** reduce creativity, they only increase machine-reliability.
@@ -326,10 +327,10 @@ Below are the **core deterministic markers** I recommend you standardize — the
 
 Everything here is:
 
-* deterministic
-* pattern-bound
-* machine-friendly
-* ritual-preserving
-* creativity-safe
+- deterministic
+- pattern-bound
+- machine-friendly
+- ritual-preserving
+- creativity-safe
 
 ––––––––––––––––––––––––––––––––––––––

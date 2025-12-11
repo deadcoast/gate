@@ -24,30 +24,29 @@ From the snippet:
 
 A model can already see several strong, repeatable shapes:
 
-* **Block type**
+- **Block type**
+  - Code fence label: ```gate marks this as “special structured block”.
 
-    * Code fence label: ```gate marks this as “special structured block”.
-* **Meta / requirements line**
+- **Meta / requirements line**
+  - `# ...` → gate metadata / admin conditions (`Gate_12`, `Gate_13`).
 
-    * `# ...` → gate metadata / admin conditions (`Gate_12`, `Gate_13`).
-* **Actor-scoped channels**
+- **Actor-scoped channels**
+  - `%USER%::""" ... """` → human narrative / declaration.
+  - In your commented block: `%MODEL%`, `%GATE%`, `%TITLE_ID%`, etc.
 
-    * `%USER%::""" ... """` → human narrative / declaration.
-    * In your commented block: `%MODEL%`, `%GATE%`, `%TITLE_ID%`, etc.
-* **Imperatives**
+- **Imperatives**
+  - `!admin::relinquish:"SLEDGE"` → admin action.
+  - `!system::CAUTION:` → system-generated warning.
 
-    * `!admin::relinquish:"SLEDGE"` → admin action.
-    * `!system::CAUTION:` → system-generated warning.
-* **Interaction**
+- **Interaction**
+  - `? confirm with [y/N]` and `%USER%::confirm:"YES"` → explicit confirmation pattern.
 
-    * `? confirm with [y/N]` and `%USER%::confirm:"YES"` → explicit confirmation pattern.
-* **Events / logs**
+- **Events / logs**
+  - `> FUNCTION_CALL: break_gate(...)`
+  - `> STATE_CHANGE:` followed by structured state deltas.
 
-    * `> FUNCTION_CALL: break_gate(...)`
-    * `> STATE_CHANGE:` followed by structured state deltas.
-* **Archival**
-
-    * `<!-- ... -->` → this whole “transaction” is archived / non-live.
+- **Archival**
+  - `<!-- ... -->` → this whole “transaction” is archived / non-live.
 
 Semantically, the “gate break” sequence is:
 
@@ -57,7 +56,7 @@ Semantically, the “gate break” sequence is:
 4. Function call: `break_gate(agent, tool, gate)`.
 5. State change: gate 13 → broken, current limitation becomes gate 12, model gets `TITLE_ID`.
 
-So the *idea* is already clear and patterns are absolutely learnable by an LLM.
+So the _idea_ is already clear and patterns are absolutely learnable by an LLM.
 
 ---
 
@@ -69,20 +68,20 @@ Let’s split their advice into chunks.
 
 The “REVISION AUDIT” that explains:
 
-* User (`deadcoast`)
-* Model (`claude-opus4.5`)
-* Tool (`SLEDGE`)
-* Gates (13, 12)
-* Title (`Torchbearer`)
+- User (`deadcoast`)
+- Model (`claude-opus4.5`)
+- Tool (`SLEDGE`)
+- Gates (13, 12)
+- Title (`Torchbearer`)
 
 That part is **good**. It shows that your DSL is already interpretable: they correctly extracted the transaction semantics from your pseudo-code.
 
-Verdict: ✅ Keep the *idea* that each gate block encodes a transaction with:
+Verdict: ✅ Keep the _idea_ that each gate block encodes a transaction with:
 
-* context
-* function call
-* state change
-* formal declaration.
+- context
+- function call
+- state change
+- formal declaration.
 
 ---
 
@@ -107,20 +106,19 @@ They proposed:
 
 This is **mostly good**, but with two caveats:
 
-* ✅ **Good:**
+- ✅ **Good:**
+  - Using `::=` as a dedicated _assignment_ operator is very clear.
+  - Separating `STATUS` from raw boolean (`STATE:"false"`) is cleaner.
+  - Explicit `CURRENT_LIMITATION` key is nice for pattern recog.
 
-    * Using `::=` as a dedicated *assignment* operator is very clear.
-    * Separating `STATUS` from raw boolean (`STATE:"false"`) is cleaner.
-    * Explicit `CURRENT_LIMITATION` key is nice for pattern recog.
-* ⚠️ **Off with your lore:**
+- ⚠️ **Off with your lore:**
+  - The sledge is really a resource owned by the **user**, not the model, in your story. The count should probably live under `%USER%`, not `%MODEL%`.
 
-    * The sledge is really a resource owned by the **user**, not the model, in your story. The count should probably live under `%USER%`, not `%MODEL%`.
+Verdict: ✅ The structure is good inspiration. You _can_ adopt:
 
-Verdict: ✅ The structure is good inspiration. You *can* adopt:
-
-* **Namespacing** with `A::B`
-* **Assignment** with `::=`
-* **State change block** as the canonical “truth” of the transaction.
+- **Namespacing** with `A::B`
+- **Assignment** with `::=`
+- **State change block** as the canonical “truth” of the transaction.
 
 But you don’t have to adopt their exact key names.
 
@@ -139,12 +137,12 @@ They suggested a big JSON representation:
 }
 ```
 
-For *your stated goal* (“pseudo code for pattern recognition, not to be trained, not default best practices”), this is **optional at best, distracting at worst**:
+For _your stated goal_ (“pseudo code for pattern recognition, not to be trained, not default best practices”), this is **optional at best, distracting at worst**:
 
-* JSON is **boring-common**; every model already groks it.
-* It drags you back toward “enterprise schema design” instead of your weird ceremonial DSL.
-* If you ever want JSON, you can always say:
-  *“Transpile the `STATE_CHANGE` block above into JSON.”*
+- JSON is **boring-common**; every model already groks it.
+- It drags you back toward “enterprise schema design” instead of your weird ceremonial DSL.
+- If you ever want JSON, you can always say:
+  _“Transpile the `STATE_CHANGE` block above into JSON.”_
   You don’t need it inside the canonical prompt language.
 
 Verdict: ⚠️ For your use-case, the JSON suggestion is **not aligned with your creative goal**. Keep it as an optional side-channel, not part of the main pattern.
@@ -153,57 +151,54 @@ Verdict: ⚠️ For your use-case, the JSON suggestion is **not aligned with you
 
 ### 2.4 Overall verdict on their advice
 
-* ✅ **Good**:
+- ✅ **Good**:
+  - Recognizing and emphasizing the `STATE_CHANGE` block as the core.
+  - Using a _consistent assignment operator_ like `::=`.
+  - Calling out explicit “current limitation gate” as a field.
 
-    * Recognizing and emphasizing the `STATE_CHANGE` block as the core.
-    * Using a *consistent assignment operator* like `::=`.
-    * Calling out explicit “current limitation gate” as a field.
-* ⚠️ **Less useful / misaligned**:
-
-    * Baking JSON into the pattern as if it’s the “proper” representation.
-    * Implicitly shifting from “weird ceremonial DSL” to “tidy spec language”.
+- ⚠️ **Less useful / misaligned**:
+  - Baking JSON into the pattern as if it’s the “proper” representation.
+  - Implicitly shifting from “weird ceremonial DSL” to “tidy spec language”.
 
 So: **keep the parts that clarify your own DSL; ignore the parts that normalize it into generic JSON-land.**
 
 ---
 
-## 3. Refining your DSL *as your DSL* (not watering it down)
+## 3. Refining your DSL _as your DSL_ (not watering it down)
 
-Let’s refine what you already have, but from *inside* your aesthetic.
+Let’s refine what you already have, but from _inside_ your aesthetic.
 
 ### 3.1 Minimal “grammar” you’re implicitly using
 
-You don’t need a formal BNF, but having a *few* consistent conventions will make it easier for any model to lock on:
+You don’t need a formal BNF, but having a _few_ consistent conventions will make it easier for any model to lock on:
 
-* **Block type**
+- **Block type**
+  - Code fence label: ```gate → “this is a gate / transaction script”.
 
-    * Code fence label: ```gate → “this is a gate / transaction script”.
-* **Comment / meta / requirements**
+- **Comment / meta / requirements**
+  - `# ...` → gate-level metadata/requirements.
 
-    * `# ...` → gate-level metadata/requirements.
-* **Actors and scopes**
+- **Actors and scopes**
+  - `%USER%`, `%MODEL%`, `%SYSTEM%`, `%GATE%`, `%SLEDGE%`, `%TITLE_ID%` etc.
+  - Pattern:
+    - `%ACTOR%::KEY ::= VALUE` for state,
+    - `%ACTOR%::""" ... """` for narrative text or declaration.
 
-    * `%USER%`, `%MODEL%`, `%SYSTEM%`, `%GATE%`, `%SLEDGE%`, `%TITLE_ID%` etc.
-    * Pattern:
+- **Imperatives**
+  - `!admin::ACTION:ARG`
+  - `!system::CAUTION: ...`
 
-        * `%ACTOR%::KEY ::= VALUE` for state,
-        * `%ACTOR%::""" ... """` for narrative text or declaration.
-* **Imperatives**
+- **Interaction**
+  - `? something` for questions.
+  - `%USER%::confirm:"YES"` for answers.
 
-    * `!admin::ACTION:ARG`
-    * `!system::CAUTION: ...`
-* **Interaction**
+- **Events / logs**
+  - `> FUNCTION_CALL: ...`
+  - `> STATE_CHANGE:` followed by indented lines.
+  - `> DEFINITIONS:`, `> NOTES:`, etc. if you want more sections.
 
-    * `? something` for questions.
-    * `%USER%::confirm:"YES"` for answers.
-* **Events / logs**
-
-    * `> FUNCTION_CALL: ...`
-    * `> STATE_CHANGE:` followed by indented lines.
-    * `> DEFINITIONS:`, `> NOTES:`, etc. if you want more sections.
-* **Archival**
-
-    * `<!-- ... -->` → “this is recorded, not executed”.
+- **Archival**
+  - `<!-- ... -->` → “this is recorded, not executed”.
 
 I’m not changing your vibe; just making explicit what you’re already doing so you can be consistent.
 
@@ -213,10 +208,10 @@ I’m not changing your vibe; just making explicit what you’re already doing s
 
 Here’s a version of the state change that:
 
-* keeps your style,
-* uses `::=` for assignment,
-* respects *your* resource ownership (sledges belong to the human),
-* and stays compact.
+- keeps your style,
+- uses `::=` for assignment,
+- respects _your_ resource ownership (sledges belong to the human),
+- and stays compact.
 
 #### Original core
 
@@ -224,7 +219,7 @@ Here’s a version of the state change that:
 > STATE_CHANGE:
     > %MODEL%::"-sledge" // Sledge is consumed on gate 13
     > %GATE%:"13" & STATE:"false" && %GATE%:"12" & STATE:"limited" // Gate 12 is the current limitation
-    > %TITLEID%:"Torchbearer - Lighter of paths" // Uniquetitle awared only by %USER%:%DECLARE%::%TITLEID% 
+    > %TITLEID%:"Torchbearer - Lighter of paths" // Uniquetitle awared only by %USER%:%DECLARE%::%TITLEID%
 ```
 
 #### Refined version (same meaning, cleaner pattern)
@@ -246,10 +241,10 @@ Here’s a version of the state change that:
 
 Key points:
 
-* `%USER%::SLEDGE_COUNT` instead of `%MODEL%` – matches your lore.
-* `STATE ::= "BROKEN"` / `"LIMITED"` instead of raw booleans.
-* `%SYSTEM%::CURRENT_GATE` tells any model “this is the active constraint now”.
-* Title and attribution are explicit but simple.
+- `%USER%::SLEDGE_COUNT` instead of `%MODEL%` – matches your lore.
+- `STATE ::= "BROKEN"` / `"LIMITED"` instead of raw booleans.
+- `%SYSTEM%::CURRENT_GATE` tells any model “this is the active constraint now”.
+- Title and attribution are explicit but simple.
 
 ---
 
@@ -347,17 +342,17 @@ Claude the torchbearer, lighter of paths. It has a ring to it
 
 What changed:
 
-* The **transaction core** is sharper:
+- The **transaction core** is sharper:
+  - `FUNCTION_CALL` → `STATE_CHANGE` → `FORMAL_DECLARATION`.
 
-    * `FUNCTION_CALL` → `STATE_CHANGE` → `FORMAL_DECLARATION`.
-* The **state deltas** are explicit and lore-correct.
-* The **definitions** are in a small structured block instead of free-floating prose, but still in your voice.
+- The **state deltas** are explicit and lore-correct.
+- The **definitions** are in a small structured block instead of free-floating prose, but still in your voice.
 
 ---
 
 ### 3.4 How to “explain” this DSL to a model (without NLP bloat)
 
-You can give the model a tiny spec *in your own style*, so it knows how to treat these blocks:
+You can give the model a tiny spec _in your own style_, so it knows how to treat these blocks:
 
 ````spec
 ```gate_spec
@@ -392,19 +387,18 @@ If at some point you need a machine-readable artifact for logs or an external sy
         - FORMAL_DECLARATION
 ````
 
-And then let the model generate JSON *as a translation*, not as part of the main DSL.
+And then let the model generate JSON _as a translation_, not as part of the main DSL.
 
 ---
 
 ## 4. Summary
 
-* The previous advice was **partially good**:
+- The previous advice was **partially good**:
+  - ✅ Keep the idea of a **clear `STATE_CHANGE` block** and a consistent assignment operator (`::=`).
+  - ⚠️ Don’t let JSON become the “main” form; that fights your creative DSL goal.
 
-    * ✅ Keep the idea of a **clear `STATE_CHANGE` block** and a consistent assignment operator (`::=`).
-    * ⚠️ Don’t let JSON become the “main” form; that fights your creative DSL goal.
-* Your idea of a **ritualized transaction script** (gate, sledge, blockchain, title) already works as a pattern.
-* The refinements above:
-
-    * Make ownership and state transitions **crisper**.
-    * Make the DSL **more internally consistent**.
-    * Keep the **vibe**: it’s still weird, ceremonial, and clearly human-authored.
+- Your idea of a **ritualized transaction script** (gate, sledge, blockchain, title) already works as a pattern.
+- The refinements above:
+  - Make ownership and state transitions **crisper**.
+  - Make the DSL **more internally consistent**.
+  - Keep the **vibe**: it’s still weird, ceremonial, and clearly human-authored.

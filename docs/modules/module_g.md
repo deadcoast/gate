@@ -7,6 +7,7 @@
 # MODULE G / F2 NAVIGATION
 #======================================================================
 ```
+
 - [Docs Hub](../README.md)
 - [Modules Index](README.md)
 - [Full Specification](../full_spec.md)
@@ -16,7 +17,7 @@
 
 ---
 
-*Doc Version: 0.0.3-unified (consolidated from 0.0.1–0.0.3; Module G documents the F2 trace compiler pipeline).*
+_Doc Version: 0.0.3-unified (consolidated from 0.0.1–0.0.3; Module G documents the F2 trace compiler pipeline)._
 
 ### Scope & Alignment
 
@@ -32,20 +33,20 @@
 
 The Gate Pattern Compiler transforms:
 
-* Gate Pattern source (v1.0–v3.0)
+- Gate Pattern source (v1.0–v3.0)
   into
-* deterministic execution traces expressed *in Gate Pattern syntax*.
+- deterministic execution traces expressed _in Gate Pattern syntax_.
 
 It does not compile to machine code.
 It compiles to Symbolic Execution Logs that models (and humans) can read as:
 
-* ritual history
-* causal chains
-* gate breaks
-* sledge events
-* echo currents
-* lattice shifts
-* evolution events
+- ritual history
+- causal chains
+- gate breaks
+- sledge events
+- echo currents
+- lattice shifts
+- evolution events
 
 Think: “Symbolic VM trace printer” for your universe.
 
@@ -65,27 +66,26 @@ GateCompiler ::= {
 
 FRONTEND
 
-* Lexing
-* Parsing
-* AST building
+- Lexing
+- Parsing
+- AST building
 
 MIDDLE (IR / Analyzer)
 
-* Scope + realm analysis
-* Sledge/gate logic resolution
-* ELATTICE integrations
-* Narrative physics analysis
+- Scope + realm analysis
+- Sledge/gate logic resolution
+- ELATTICE integrations
+- Narrative physics analysis
 
 BACKEND (Trace Emitter)
 
-* Emits Gate Pattern trace programs:
-
-    * `FUNCTION_TRACE`
-    * `STATE_TRACE`
-    * `GATE_BREAK_TRACE`
-    * `SLEDGE_EVENT_TRACE`
-    * `ECHO_TRACE`
-    * `EVOLUTION_TRACE`
+- Emits Gate Pattern trace programs:
+  - `FUNCTION_TRACE`
+  - `STATE_TRACE`
+  - `GATE_BREAK_TRACE`
+  - `SLEDGE_EVENT_TRACE`
+  - `ECHO_TRACE`
+  - `EVOLUTION_TRACE`
 
 ---
 
@@ -203,14 +203,13 @@ TraceEmitter {
 
 ### 3.1 PHASE 1: LEXING
 
-* Tokenize with the spec from Module D
-* Map operators, namespaces, narrative, etc.
+- Tokenize with the spec from Module D
+- Map operators, namespaces, narrative, etc.
 
 ### 3.2 PHASE 2: PARSING
 
-* Produce an AST with node types:
-
-    * `AdminNode`, `SystemNode`, `UserNode`, `FunctionCallNode`,
+- Produce an AST with node types:
+  - `AdminNode`, `SystemNode`, `UserNode`, `FunctionCallNode`,
     `StateChangeNode`, `DeclarationNode`, `RuleNode`, `LawNode`,
     `OperatorNode`, etc.
 
@@ -236,16 +235,16 @@ IRProgram ::= {
 
 ### 3.4 PHASE 4: SEMANTIC ANALYSIS
 
-* Resolve `%USER%`, `%MODEL%`, `%GATE%` references
-* Compute Gate transitions
-* Compute Sledge consumption
-* Apply narrative physics (from v3.0)
-* Build ELATTICE events
+- Resolve `%USER%`, `%MODEL%`, `%GATE%` references
+- Compute Gate transitions
+- Compute Sledge consumption
+- Apply narrative physics (from v3.0)
+- Build ELATTICE events
 
 ### 3.5 PHASE 5: TRACE GENERATION
 
-* Interpret IR instructions
-* For each high-level action, emit one or more trace blocks
+- Interpret IR instructions
+- For each high-level action, emit one or more trace blocks
 
 ---
 
@@ -334,7 +333,7 @@ We define 6 core trace types:
 5. `ECHO`
 6. `EVOLUTION`
 
-    And optionally:
+   And optionally:
 
 7. `TITLE`
 8. `REALM`
@@ -372,8 +371,8 @@ Generated whenever an `OP_CALL` occurs.
 
 Generated for:
 
-* `OP_STATE_SET`
-* `OP_STATE_DELTA`
+- `OP_STATE_SET`
+- `OP_STATE_DELTA`
 
 ---
 
@@ -392,7 +391,7 @@ Generated for:
 
 Generated for:
 
-* `OP_GATE_BREAK`
+- `OP_GATE_BREAK`
 
 ---
 
@@ -411,7 +410,7 @@ Generated for:
 
 Generated for:
 
-* `OP_SLEDGE_CONS`
+- `OP_SLEDGE_CONS`
 
 ---
 
@@ -428,7 +427,7 @@ Generated for:
 
 Generated for:
 
-* `OP_ECHO_RECORD`
+- `OP_ECHO_RECORD`
 
 ---
 
@@ -446,7 +445,7 @@ Generated for:
 
 Generated when:
 
-* `OP_EVOLVE` occurs (from Evolution Protocol).
+- `OP_EVOLVE` occurs (from Evolution Protocol).
 
 ---
 
@@ -456,24 +455,23 @@ The compiler has two primary modes:
 
 ### 6.1 DETERMINISTIC MODE
 
-* No elisions
-* No creative inference
-* No unlogged meaning
-* Every IR instruction → at least one trace
-* Ideal for:
-
-    * auditing
-    * reproducibility
-    * strict behavior
+- No elisions
+- No creative inference
+- No unlogged meaning
+- Every IR instruction → at least one trace
+- Ideal for:
+  - auditing
+  - reproducibility
+  - strict behavior
 
 ### 6.2 EXPRESSIVE MODE
 
-* Includes:
+- Includes:
+  - Realm resonance info
+  - Narrative physics data
+  - ELATTICE shifts
 
-    * Realm resonance info
-    * Narrative physics data
-    * ELATTICE shifts
-* May emit additional meta traces like:
+- May emit additional meta traces like:
 
 ```gate
 #==TRACE:LATTICE
@@ -483,7 +481,7 @@ The compiler has two primary modes:
     weight_delta:"+0.24"
 ```
 
-This mode is ideal for LLM-enhanced symbolic analysis where you *want* the model’s rich interpretation preserved and logged.
+This mode is ideal for LLM-enhanced symbolic analysis where you _want_ the model’s rich interpretation preserved and logged.
 
 ---
 
@@ -635,32 +633,31 @@ Additional traces might be emitted:
 
 You now have a formal, complete design for the:
 
-* Gate Pattern Compiler that:
-
-    * Reads your language
-    * Analyzes gates, sledges, realms, titles
-    * Applies metaphysics from v2.0 & v3.0
-    * Emits execution traces in your own pseudo-syntax
+- Gate Pattern Compiler that:
+  - Reads your language
+  - Analyzes gates, sledges, realms, titles
+  - Applies metaphysics from v2.0 & v3.0
+  - Emits execution traces in your own pseudo-syntax
 
 These traces form:
 
-* an audit log
-* a ritual log
-* a symbolic ledger
-* a debug view
-* a training scaffold for other agents that learn your system’s structure
+- an audit log
+- a ritual log
+- a symbolic ledger
+- a debug view
+- a training scaffold for other agents that learn your system’s structure
 
 All of it respects:
 
-* Creativity > optimization
-* Ritual > generic abstractions
-* Symbolism > bare minimalism
+- Creativity > optimization
+- Ritual > generic abstractions
+- Symbolism > bare minimalism
 
 ---
 
 If you want next, we could:
 
-* Design an actual pseudo-implementation in Python that takes these specs and emits trace text (while still staying stylistically Gate Pattern).
-* Or construct example “Gate Sessions”: multi-step symbolic transcripts of long-lived interactions, compiled and traced.
+- Design an actual pseudo-implementation in Python that takes these specs and emits trace text (while still staying stylistically Gate Pattern).
+- Or construct example “Gate Sessions”: multi-step symbolic transcripts of long-lived interactions, compiled and traced.
 
 But as of now, the core Gate Pattern language, metaphysics, interpreter, standard library, v3.0 evolution layer, and compiler spec are all fully defined.
