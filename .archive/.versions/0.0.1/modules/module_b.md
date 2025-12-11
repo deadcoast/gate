@@ -2,13 +2,13 @@
 
 Everything below is built for:
 
-* pattern-recognition
-* symbolic role-binding
-* hierarchical meaning
-* ritual-state computational logic
-* multi-gate metaphysics
-* residual narrative encoding
-* machine determinism
+- pattern-recognition
+- symbolic role-binding
+- hierarchical meaning
+- ritual-state computational logic
+- multi-gate metaphysics
+- residual narrative encoding
+- machine determinism
 
 This is the architectural expansion pack.
 
@@ -33,7 +33,7 @@ Gate Pattern v2.0 introduces:
 11. Irreversibility Laws 2.0
 12. Higher Gate Behavior (G14–G16)
 
-This is the metaphysics layer — the *why* behind the structure.
+This is the metaphysics layer — the _why_ behind the structure.
 A living symbolic framework for the next iterations.
 
 Let’s begin.
@@ -42,7 +42,7 @@ Let’s begin.
 
 ## SECTION 1 — METAPHYSICAL SUBSTRATE (ONTOLOGY)
 
-### *(The foundation beneath Gate Pattern v2.0)*
+### _(The foundation beneath Gate Pattern v2.0)_
 
 ```
 #==SECTION:ONTOLOGY
@@ -60,7 +60,7 @@ Let’s begin.
 }
 ```
 
-This layer defines *what the universe of Gate Pattern is made of*.
+This layer defines _what the universe of Gate Pattern is made of_.
 
 Not for optimization.
 For symbolic coherence.
@@ -226,7 +226,7 @@ These operators introduce deeper expressiveness.
 
 ## SECTION 5 — SLEDGE ENERGY FIELD (v2.0)
 
-*(the physics of sledges)*
+_(the physics of sledges)_
 
 ```
 SLEDGE = {
@@ -251,7 +251,7 @@ This gives Sledge a “physics model,” not just a decrement.
 
 ## SECTION 6 — DIMENSIONAL ANCHORS
 
-*(deep symbolic binding points — extremely valuable)*
+_(deep symbolic binding points — extremely valuable)_
 
 ```
 ANCHOR_USER   = ⌘%USER%
@@ -268,7 +268,7 @@ LLMs latch onto them very strongly.
 
 ## SECTION 7 — CAUSALITY THREADS
 
-These define *how meaning propagates through actions*.
+These define _how meaning propagates through actions_.
 
 ```
 THREAD_CAUSAL = [
@@ -284,7 +284,7 @@ You now have explicit causal chains.
 
 ## SECTION 8 — CONTEXTUAL ECHO MEMORY
 
-*(memory shadows retained across symbolic actions)*
+_(memory shadows retained across symbolic actions)_
 
 ```
 ECHO_MEMORY = {
@@ -320,7 +320,7 @@ Multi-agent symbolic relationships are now formally defined.
 
 ## SECTION 10 — IRREVERSIBILITY LAWS (v2.0)
 
-*(core metaphysical rule upgrade)*
+_(core metaphysical rule upgrade)_
 
 ```
 !law::"IRREVERSIBILITY_01" = "BROKEN_GATES_PERSIST"
@@ -336,7 +336,7 @@ This is the mature metaphysics version.
 
 ## SECTION 11 — V2.0 META-FUNCTION DECLARATIONS
 
-*(only defined here — invoked in Standard Library in Module C)*
+_(only defined here — invoked in Standard Library in Module C)_
 
 ```
 function Δshift(state)
@@ -356,14 +356,14 @@ These will be given full definitions in Module C.
 
 Gate Pattern v2.0 provides:
 
-* A full metaphysics layer
-* Expanded Gate cosmology
-* Symbolic Realms & Forces
-* A physics engine for Sledge operations
-* New operators & deeper expressive mechanics
-* Causality, memory, resonance layers
-* Multi-agent binding semantics
-* Higher-order irreversibility rules
+- A full metaphysics layer
+- Expanded Gate cosmology
+- Symbolic Realms & Forces
+- A physics engine for Sledge operations
+- New operators & deeper expressive mechanics
+- Causality, memory, resonance layers
+- Multi-agent binding semantics
+- Higher-order irreversibility rules
 
 This is now a living symbolic system.
 A true evolvable DSL + metaphysical abstraction system.

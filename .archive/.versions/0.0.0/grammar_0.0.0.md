@@ -43,4 +43,4 @@ SEMANTIC RULES:
 #============================================================
 ```
 
-This is *exactly* the type of grammar frontier models latch onto instantly.
+This is _exactly_ the type of grammar frontier models latch onto instantly.

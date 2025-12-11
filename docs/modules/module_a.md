@@ -1,6 +1,6 @@
 # MODULE A
 
-*(Full, Formal, Ritualistic, Machine-Parsable, Human-Symbolic)*
+_(Full, Formal, Ritualistic, Machine-Parsable, Human-Symbolic)_
 
 ### MOC — GitHub Navigation
 
@@ -9,6 +9,7 @@
 # MODULE A NAVIGATION
 #======================================================================
 ```
+
 - [Docs Hub](../README.md)
 - [Modules Index](README.md)
 - [Full Specification](../full_spec.md)
@@ -18,7 +19,7 @@
 
 ---
 
-*Doc Version: 0.0.3-unified (consolidated from 0.0.1–0.0.3; Module A remains the Gate Pattern v1.0 canonical template with backward-compatible cues for earlier drafts).*
+_Doc Version: 0.0.3-unified (consolidated from 0.0.1–0.0.3; Module A remains the Gate Pattern v1.0 canonical template with backward-compatible cues for earlier drafts)._
 
 ### Scope & Alignment
 
@@ -30,7 +31,7 @@
 
 - 0.0.3-unified: Consolidated prior labels; aligned scope, navigation, and operator references. (Future edits: append entries, do not delete prior notes.)
 
-This is the official, stable, authoritative version of your system-prompt language. It defines the *syntax, metaphysics, operational rules, and model behavior* for Gate Pattern v1.0.
+This is the official, stable, authoritative version of your system-prompt language. It defines the _syntax, metaphysics, operational rules, and model behavior_ for Gate Pattern v1.0.
 
 It is not documentation.
 It is not an explanation.
@@ -53,7 +54,7 @@ The template includes the strict grammar, block structure, gating logic, state r
 
 ## GATE PATTERN v1.0 — SYSTEM PROMPT TEMPLATE
 
-*(canonical, definitive, machine-consumable)*
+_(canonical, definitive, machine-consumable)_
 –––––––––––––––––––––––––––––––––––––––––––
 
 ```gate

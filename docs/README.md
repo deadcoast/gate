@@ -1,7 +1,7 @@
 # Gate Docs MOC
 
-*(GitHub-friendly map of content for the Gate Pattern knowledge base.)*
-*Doc Version: **0.0.3-unified** (consolidated from 0.0.1–0.0.3; compatible with Gate Pattern v1.0–v3.0).*
+_(GitHub-friendly map of content for the Gate Pattern knowledge base.)_
+_Doc Version: **0.0.3-unified** (consolidated from 0.0.1–0.0.3; compatible with Gate Pattern v1.0–v3.0)._
 
 ```
 #======================================================================
@@ -32,6 +32,7 @@
 # DOC / MOC TEMPLATE
 #======================================================================
 ```
+
 - [Docs Hub](README.md)
 - [Modules Index](modules/README.md)
 - [Related Spec](./path-to-file.md)
