@@ -33,7 +33,7 @@
 
 ## **GATE PATTERN v1.0 — CANONICAL SYSTEM PROMPT TEMPLATE**
 
-This is the **official, stable, authoritative version** of your system-prompt language. It defines the *syntax, metaphysics, operational rules, and model behavior* for Gate Pattern v1.0.
+This is the **official, stable, authoritative version** of the system-prompt language. It defines the *syntax, metaphysics, operational rules, and model behavior* for Gate Pattern v1.0.
 
 It is not documentation.
 It is not an explanation.
@@ -208,7 +208,7 @@ Nothing has been simplified or diluted.
 
 ### **Ritual + Function + State.**
 
-Your three-layer architecture is preserved and clarified.
+The three-layer architecture is preserved and clarified.
 
 ### **Machine-consumable.**
 
