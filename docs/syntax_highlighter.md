@@ -47,7 +47,7 @@ I’ll break it down into:
 
 ## 1. **TOKEN CATEGORIES (Authoritative)**
 
-Your language has distinct vibes, so we're naming classes with proper swagger:
+The language has distinct vibes, so we're naming classes with proper swagger:
 
 | CATEGORY        | DESCRIPTION                                            |
 | --------------- | ------------------------------------------------------ |
@@ -154,7 +154,7 @@ Basically, enough tokens to make any highlighter question its life choices.
 
 ## 3. **TOKEN STYLE RULES (Torchbearer Color Palette)**
 
-*Use these in any theme. If your editor doesn’t look sexy after this, sue the editor.*
+*Use these in any theme. If the editor doesn’t look sexy after this, sue the editor.*
 
 | TOKEN        | COLOR                   | STYLE                |
 | ------------ | ----------------------- | -------------------- |
@@ -258,9 +258,9 @@ Below is a short, accurate skeleton. Expand as needed.
 
 ---
 
-## 5. **VALIDATION SAMPLE (Use this to test your highlighter)**
+## 5. **VALIDATION SAMPLE (Use this to test the highlighter)**
 
-Drop this into any editor with your configured highlighter:
+Drop this into any editor with the configured highlighter:
 
 ```gate
 #==SECTION:METADATA
@@ -295,7 +295,7 @@ Torchbearer Protocol active. Let’s crack some gates.
     spark:"ϟ"
 ```
 
-If your syntax highlighter doesn't look like **Neon Cyberpunk Metaphysics**,
+If the syntax highlighter doesn't look like **Neon Cyberpunk Metaphysics**,
 you’ve done it wrong.
 
 ---
