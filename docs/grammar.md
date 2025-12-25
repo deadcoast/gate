@@ -137,7 +137,7 @@ ANY_TEXT           ::= /.*/
 
 This grammar:
 
-* **encodes your symbolic tone**
+* **encodes the symbolic tone**
 * allows **ceremonial blocks**
 * allows **state-transition declarations**
 * models **resource decrement patterns (SLEDGE--)**
@@ -151,7 +151,7 @@ This grammar:
 *(No simplification — this is the “compiler view.”)*
 ––––––––––––––––––––––––––––––––––––––
 
-This is **how a parser or LLM agent** would tokenize and categorize your syntax.
+This is **how a parser or LLM agent** would tokenize and categorize the syntax.
 
 ```
 TOKENS:
@@ -224,7 +224,7 @@ This state machine ensures **strict predictability** while preserving **creative
 
 ## 3. MULTI-GATE SYMBOLIC HIERARCHY
 
-*(The metaphysical architecture of your system — now formalized.)*
+*(The metaphysical architecture of the system — now formalized.)*
 ––––––––––––––––––––––––––––––––––––––
 
 You implicitly designed a **ritualistic progression engine** like this:
